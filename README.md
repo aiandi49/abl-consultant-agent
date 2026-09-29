@@ -77,6 +77,17 @@ Everything lives in `data/gub.json`:
 
 Change a playlist, fix a summary or add a direct Buzzsprout link, and the guide and the agent pick it up on the next deployment. The cheat sheet is plain HTML, so if a playlist or title changes in `data/gub.json`, update `cheat-sheet.html` to match. Only 25 episodes have a confirmed direct Buzzsprout link (`urlConfirmed: true`). The rest link to the show page until someone copies their links from the RSS feed.
 
+## Downloads
+
+`downloads/abl-podcast-workbook.xlsx` is an Excel workbook for Ms. Lee with four sheets:
+
+- **Summary:** counts by playlist and duplicate type, all as live formulas.
+- **All 99 episodes:** every episode, with duplicates in red, which episode each one repeats, and how it differs.
+- **30-day plan:** change the yellow start date and every date updates.
+- **YouTube videos (fill in):** paste the channel's videos and it finds the matching episode and flags repeats.
+
+It's linked from the cheat sheet, and the consultant gives the link whenever someone asks for a list, a spreadsheet or a plan. If episodes change in `data/gub.json`, rebuild the workbook to match.
+
 ## What is real, and what would need a bigger build
 
 **Works now:**
@@ -104,7 +115,7 @@ The agent says so plainly when asked to do any of these.
 - **What `/api/chat` accepts.** It takes POST only, and only JSON. Bodies must be 32 KB or less, with at most 30 messages of up to 4,000 characters each. Only user and assistant turns are forwarded.
 - **Origin check.** Requests whose `Origin` isn't this site are refused with 403. This blocks other websites. It does **not** block scripts, which can fake the header, so it doesn't replace the rate-limit rule or the spend cap.
 - **Built-in rate limit.** It allows 20 requests per visitor per 10 minutes, then returns 429. It counts per server instance, so it is best-effort. Add the Vercel Firewall rule below as the real limit.
-- **Upstream calls.** Calls to Anthropic time out after 50 seconds, which is inside the function's 60-second limit.
+- **Upstream calls.** Answers stream to the browser as they're written, so long answers aren't cut off by phones or networks, and there's a quiet keep-alive while Claude is thinking. If Claude is busy (429/5xx/529), the server retries once before giving up. Calls time out after 280 seconds, inside the function's 300-second limit.
 - **Errors.** Errors return a plain `{error}` message. The logs record status codes only, never message text, headers or keys.
 - **Safe display.** All model and user text is placed with `textContent`. There are no `innerHTML`-style calls, `eval` or inline event handlers.
 - **Headers.** `vercel.json` sets the full header set on every route. The Content Security Policy allows only this site and Google Fonts. It allows one exception for audio: ABL's Supabase storage, which plays the pilot episodes. The small theme script in each page's `<head>` is allowed by its sha256 hash. If you edit that script, recompute the hash and update `vercel.json`.
