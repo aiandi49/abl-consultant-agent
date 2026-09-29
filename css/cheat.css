@@ -45,3 +45,7 @@ footer{text-align:center;color:var(--dim);font-size:.875rem;padding:1.5rem 1rem 
 .back{font-weight:600;font-size:.875rem;text-decoration:none;padding:.375rem .5rem}
 .back:hover{text-decoration:underline}
 @media print{.back{display:none}}
+.dl{display:flex;flex-wrap:wrap;gap:.5rem .875rem;align-items:center;justify-content:center;margin-top:1rem}
+.dl-btn{display:inline-flex;align-items:center;min-height:2.75rem;padding:.5rem 1.25rem;border-radius:999px;background:var(--turq);color:var(--paper);font-weight:700;text-decoration:none}
+.dl-btn:hover{filter:brightness(1.07)}
+@media print{.dl{display:none}}
