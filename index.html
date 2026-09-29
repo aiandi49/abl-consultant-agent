@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-default-theme="dark" data-font-size="md">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Consultant Agent | Abundance Legacy</title>
+<meta name="description" content="Ms. Lee's Consultant Agent for Abundance Legacy: ask about relaunching Real Choices…Real Life on YouTube and get a specific recommendation and next step.">
+<script>(function(){var d=document.documentElement,t=d.getAttribute('data-default-theme')||'light',f='md';try{var s=localStorage.getItem('pref-theme'),z=localStorage.getItem('pref-font-size');if(s==='light'||s==='dark')t=s;if(z==='sm'||z==='md'||z==='lg'||z==='xl')f=z;}catch(e){}d.setAttribute('data-theme',t);d.setAttribute('data-font-size',f);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="css/engine.css">
+</head>
+<body>
+<a class="skip" href="#chatInput">Skip to the chat box</a>
+<div class="stage">
+  <header class="topbar">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text">Abundance Legacy <small>Consultant Agent</small></span></a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Consultant</a>
+        <a href="guide.html">Guide</a>
+        <a href="guide.html#playlists">Playlists</a>
+        <a href="guide.html#pilot">Pilot</a>
+        <div class="controls">
+          <div class="size-group" role="group" aria-label="Text size">
+            <button class="js-size" data-size="sm" type="button" aria-pressed="false" aria-label="Text size Small"><span aria-hidden="true">A</span></button>
+            <button class="js-size" data-size="md" type="button" aria-pressed="true" aria-label="Text size Medium, selected"><span aria-hidden="true">A</span></button>
+            <button class="js-size" data-size="lg" type="button" aria-pressed="false" aria-label="Text size Large"><span aria-hidden="true">A</span></button>
+            <button class="js-size" data-size="xl" type="button" aria-pressed="false" aria-label="Text size Extra large"><span aria-hidden="true">A</span></button>
+          </div>
+          <button class="theme js-theme" type="button" aria-pressed="true" aria-label="Dark theme is on. Switch to light theme"><span class="theme-dot" aria-hidden="true"></span><span class="js-theme-label">Light</span></button>
+        </div>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    </nav>
+    <div class="menu" id="menu">
+      <a href="index.html" aria-current="page">Consultant</a>
+      <a href="guide.html">Guide</a>
+      <a href="guide.html#playlists">Playlists</a>
+      <a href="guide.html#pilot">Pilot</a>
+      <div class="controls">
+        <div class="size-group" role="group" aria-label="Text size">
+          <button class="js-size" data-size="sm" type="button" aria-pressed="false" aria-label="Text size Small"><span aria-hidden="true">A</span></button>
+          <button class="js-size" data-size="md" type="button" aria-pressed="true" aria-label="Text size Medium, selected"><span aria-hidden="true">A</span></button>
+          <button class="js-size" data-size="lg" type="button" aria-pressed="false" aria-label="Text size Large"><span aria-hidden="true">A</span></button>
+          <button class="js-size" data-size="xl" type="button" aria-pressed="false" aria-label="Text size Extra large"><span aria-hidden="true">A</span></button>
+        </div>
+        <button class="theme js-theme" type="button" aria-pressed="true" aria-label="Dark theme is on. Switch to light theme"><span class="theme-dot" aria-hidden="true"></span><span class="js-theme-label">Light</span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <p class="hero-tag">Ms. Lee's consultant for Abundance Legacy</p>
+    <h1>Ninety-nine episodes. One next step at a time.</h1>
+    <p class="hero-sub">Ask anything about relaunching Real Choices…Real Life: which episodes first, how to sort the channel, rights, the pilot, or how viewers become givers. You'll get a specific recommendation and something to do today.</p>
+    <a class="hero-link" href="guide.html">Prefer to read it yourself? Open the guide</a>
+  </section>
+
+  <section class="board" aria-label="Consultant">
+    <div class="card chat">
+      <div class="chat-head">
+        <h2>Consultant</h2>
+        <p class="sub">Works from the relaunch guide</p>
+        <button class="icon" id="resetBtn" type="button" aria-label="Start a new conversation" title="Start a new conversation">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9"/><path d="M13.5 2.5v3h-3"/></svg>
+        </button>
+      </div>
+      <span class="count-chip" id="countChip"><span class="dot" aria-hidden="true"></span><span id="countLabel">No messages yet</span></span>
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-label="Conversation"></div>
+      <div class="composer">
+        <label class="sr" for="chatInput">Your message</label>
+        <textarea id="chatInput" rows="1" placeholder="What do you want to get done?" maxlength="4000"></textarea>
+        <button class="send" id="sendBtn" type="button">Send</button>
+      </div>
+      <p class="chat-foot">The conversation stays in this browser tab and clears when you close it.</p>
+    </div>
+
+    <div class="card result" id="matchCard">
+      <span class="tag">Top match</span>
+      <div class="cover" id="cover" aria-hidden="true"><span class="cover-kind" id="coverKind">Guide</span><span class="cover-title" id="coverTitle">Waiting for your first question</span></div>
+      <h3 class="match-name empty" id="matchName">Waiting for your first question</h3>
+      <p class="match-meta" id="matchMeta"></p>
+      <p class="block-text" id="matchWhy">The consultant's best match appears here, with its audio when it's a pilot episode.</p>
+      <audio id="matchAudio" controls preload="none" hidden></audio>
+      <a class="match-link" id="matchLink" href="guide.html" target="_blank" rel="noopener noreferrer" hidden>Open</a>
+    </div>
+
+    <div class="card result" id="shortCard">
+      <h3 class="mini-h">Shortlist</h3>
+      <div class="donut-wrap">
+        <div class="donut" id="donut" role="img" aria-label="Top match fit: not scored yet">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <defs><linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset=".55" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+            <circle class="track" cx="50" cy="50" r="40" fill="none" stroke-width="9"/>
+            <circle class="arc" id="arc" cx="50" cy="50" r="40" fill="none" stroke="url(#arcGrad)" stroke-width="9" stroke-linecap="round" stroke-dasharray="251.33" stroke-dashoffset="251.33"/>
+          </svg>
+          <div class="center"><span class="pct" id="pct">—</span><span class="lbl">top fit</span></div>
+        </div>
+      </div>
+      <p class="center-text" id="shortText">Matches are ranked by how well they fit your question.</p>
+      <ol class="shortlist" id="shortlist" aria-label="Ranked matches"></ol>
+    </div>
+
+    <div class="card result" id="detailCard">
+      <div class="detail-head"><h3 class="mini-h">Listing details</h3><span class="detail-kind" id="detailKind">—</span></div>
+      <h4 class="detail-title" id="detailTitle">Nothing selected yet</h4>
+      <p class="detail-sum" id="detailSum">Ask the consultant a question. The details of whichever match you pick land here.</p>
+      <dl class="facts" id="facts"></dl>
+      <div class="next">
+        <div class="block-title">Next step</div>
+        <p class="block-text" id="nextText">Tell the consultant what you want to get done.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="notes" aria-labelledby="notesTitle">
+  <h2 id="notesTitle">What's real on this page</h2>
+  <div class="notes-grid">
+    <p><strong>Live answers.</strong> Your messages go to this site's own server, which asks Claude with the key kept on the server. The consultant only knows the relaunch guide, so every fact it gives can be checked there.</p>
+    <p><strong>Fit scores are judgments.</strong> The percentage is the consultant's estimate of how well a match fits your question, not a measurement. Platform facts were checked in September 2026 and can change.</p>
+    <p><strong>What it can't do.</strong> It doesn't post, upload, email anyone or change any account. When it drafts a title, description or message, it comes with a copy button so you send it yourself.</p>
+    <p><strong>Nothing is saved.</strong> The chat lives in this browser tab only. There are no accounts and no history across devices.</p>
+  </div>
+</section>
+
+<footer class="foot">Abundance Legacy Consultant Agent, prepared for Ms. Lee. <a href="guide.html">Read the guide</a></footer>
+
+<script src="js/controls.js"></script>
+<script src="js/engine.js"></script>
+</body>
+</html>

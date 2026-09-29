@@ -1,0 +1,12 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# dependencies and local Vercel state
+node_modules/
+.vercel/
+
+# system files
+.DS_Store
+Thumbs.db

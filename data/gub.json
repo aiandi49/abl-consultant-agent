@@ -1,0 +1,3598 @@
+{
+ "meta": {
+  "title": "Abundance Legacy — Consultant Agent",
+  "client": "Abundance Legacy (ABL)",
+  "consultant": "Ms. Lee",
+  "podcast": "Real Choices…Real Life",
+  "showUrl": "https://www.buzzsprout.com/1891053/episodes",
+  "checked": "September 2026",
+  "playlists": [
+   {
+    "key": "holistic",
+    "name": "Holistic Living",
+    "about": "The whole-life episodes: how the areas of life connect, community, education and loss.",
+    "count": 5
+   },
+   {
+    "key": "spirituality",
+    "name": "Spirituality",
+    "about": "Faith, energy, intuition and caring for the soul.",
+    "count": 7
+   },
+   {
+    "key": "health",
+    "name": "Health",
+    "about": "Sleep, food, movement, risky substances and speaking up for your own care.",
+    "count": 11
+   },
+   {
+    "key": "relationships",
+    "name": "Family & Relationships",
+    "about": "Dating, marriage, divorce, family and the people closest to you.",
+    "count": 20
+   },
+   {
+    "key": "career",
+    "name": "Career & Purpose",
+    "about": "Work you love, mistakes, mentors, coaching and guest founders.",
+    "count": 14
+   },
+   {
+    "key": "finance",
+    "name": "Finances",
+    "about": "Budgeting, credit, planning, investing and leaving a legacy.",
+    "count": 11
+   },
+   {
+    "key": "seasonal",
+    "name": "Holidays & Year-End",
+    "about": "Thanksgiving, Christmas, Father’s Day and the year-end wraps. Good for giving season.",
+    "count": 8
+   },
+   {
+    "key": "abl",
+    "name": "About Abundance Legacy",
+    "about": "The episodes where the founder explains what Abundance Legacy is and does. The natural end-screen for every other video.",
+    "count": 3
+   }
+  ],
+  "stats": {
+   "published": 99,
+   "distinct": 79,
+   "reairs": 7,
+   "introRepeats": 10,
+   "unsure": 3,
+   "hours": 72.7,
+   "distinctHours": 57.6
+  },
+  "downloads": [
+   {
+    "theme": "Holistic Living",
+    "episodes": 5,
+    "downloads": 124
+   },
+   {
+    "theme": "Finances",
+    "episodes": 5,
+    "downloads": 116
+   },
+   {
+    "theme": "Spirituality",
+    "episodes": 5,
+    "downloads": 97
+   },
+   {
+    "theme": "Career",
+    "episodes": 10,
+    "downloads": 178
+   },
+   {
+    "theme": "Health",
+    "episodes": 4,
+    "downloads": 64
+   },
+   {
+    "theme": "Family & Relationships",
+    "episodes": 18,
+    "downloads": 220
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "ep-001",
+   "kind": "episode",
+   "title": "Holistic Living",
+   "summary": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.",
+   "body": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living",
+    "pilot"
+   ],
+   "details": {
+    "Episode": "#1 of 99",
+    "Published": "2022-01-05",
+    "Length": "36:13",
+    "Playlist": "Holistic Living",
+    "On the episode": "Hosts only",
+    "Pilot audio": "Hosted in ABL’s own storage",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 1,
+   "date": "2022-01-05",
+   "duration": "36:13",
+   "playlist": "holistic",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": "https://jlwolssfdspougmdxfmf.supabase.co/storage/v1/object/public/abl-podcast/holistic-living.mp3"
+  },
+  {
+   "id": "ep-002",
+   "kind": "episode",
+   "title": "Discover Your Spirituality",
+   "summary": "Where religion and spirituality overlap and where they part ways, with common myths cleared up.",
+   "body": "Where religion and spirituality overlap and where they part ways, with common myths cleared up.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#2 of 99",
+    "Published": "2022-01-12",
+    "Length": "34:37",
+    "Playlist": "Spirituality",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 2,
+   "date": "2022-01-12",
+   "duration": "34:37",
+   "playlist": "spirituality",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-003",
+   "kind": "episode",
+   "title": "Health & Relationships",
+   "summary": "The main areas of a healthy lifestyle, and how the people in your inner circle affect your wellbeing.",
+   "body": "The main areas of a healthy lifestyle, and how the people in your inner circle affect your wellbeing.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#3 of 99",
+    "Published": "2022-01-19",
+    "Length": "39:21",
+    "Playlist": "Health",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 3,
+   "date": "2022-01-19",
+   "duration": "39:21",
+   "playlist": "health",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-004",
+   "kind": "episode",
+   "title": "Is Your Career Your Passion?",
+   "summary": "How to recognise your passion and the signs that a job is genuinely satisfying.",
+   "body": "How to recognise your passion and the signs that a job is genuinely satisfying.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#4 of 99",
+    "Published": "2022-01-26",
+    "Length": "35:21",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 4,
+   "date": "2022-01-26",
+   "duration": "35:21",
+   "playlist": "career",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-005",
+   "kind": "episode",
+   "title": "Understanding Energy",
+   "summary": "Energy and its influence on everyday life, with a guest who shares her healing work.",
+   "body": "Energy and its influence on everyday life, with a guest who shares her healing work.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#5 of 99",
+    "Published": "2022-02-02",
+    "Length": "53:12",
+    "Playlist": "Spirituality",
+    "On the episode": "Cindy Tawiah",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 5,
+   "date": "2022-02-02",
+   "duration": "53:12",
+   "playlist": "spirituality",
+   "guest": "Cindy Tawiah",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-006",
+   "kind": "episode",
+   "title": "How to Live a Healthy Life",
+   "summary": "Six lifestyle habit areas that push your health up or down, with the show’s in-house health expert.",
+   "body": "Six lifestyle habit areas that push your health up or down, with the show’s in-house health expert.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#6 of 99",
+    "Published": "2022-02-09",
+    "Length": "55:11",
+    "Playlist": "Health",
+    "On the episode": "Steve Bowman (Live and Lead)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 6,
+   "date": "2022-02-09",
+   "duration": "55:11",
+   "playlist": "health",
+   "guest": "Steve Bowman (Live and Lead)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-007",
+   "kind": "episode",
+   "title": "Do I Have the Right Relationships?",
+   "summary": "How to tell whether the relationships around you are the right ones, and what to do when they are not.",
+   "body": "How to tell whether the relationships around you are the right ones, and what to do when they are not.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#7 of 99",
+    "Published": "2022-02-16",
+    "Length": "40:04",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 7,
+   "date": "2022-02-16",
+   "duration": "40:04",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-008",
+   "kind": "episode",
+   "title": "Am I Doing What I Love? If Not Why Not?",
+   "summary": "Balancing work with doing what you love, and the myths around work-life balance.",
+   "body": "Balancing work with doing what you love, and the myths around work-life balance.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#8 of 99",
+    "Published": "2022-02-23",
+    "Length": "56:01",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Jolisa Webb Dudley, life coach",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 8,
+   "date": "2022-02-23",
+   "duration": "56:01",
+   "playlist": "career",
+   "guest": "Jolisa Webb Dudley, life coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-009",
+   "kind": "episode",
+   "title": "Know Your Numbers",
+   "summary": "Why the numbers matter across the key areas of life, from money to health, broken down by the founder.",
+   "body": "Why the numbers matter across the key areas of life, from money to health, broken down by the founder.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances",
+    "pilot"
+   ],
+   "details": {
+    "Episode": "#9 of 99",
+    "Published": "2022-03-02",
+    "Length": "37:16",
+    "Playlist": "Finances",
+    "On the episode": "Nathaniel X. Ross",
+    "Pilot audio": "Hosted in ABL’s own storage",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 9,
+   "date": "2022-03-02",
+   "duration": "37:16",
+   "playlist": "finance",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": "https://jlwolssfdspougmdxfmf.supabase.co/storage/v1/object/public/abl-podcast/know-your-numbers.mp3"
+  },
+  {
+   "id": "ep-010",
+   "kind": "episode",
+   "title": "Understanding Energy Work",
+   "summary": "A spiritual advisor’s path to healing work, and the misconceptions people have about it.",
+   "body": "A spiritual advisor’s path to healing work, and the misconceptions people have about it.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#10 of 99",
+    "Published": "2022-03-09",
+    "Length": "53:48",
+    "Playlist": "Spirituality",
+    "On the episode": "Terri Pippin",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 10,
+   "date": "2022-03-09",
+   "duration": "53:48",
+   "playlist": "spirituality",
+   "guest": "Terri Pippin",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-011",
+   "kind": "episode",
+   "title": "The Importance of Sleep",
+   "summary": "What sleep does for you, the myths around it and what gets in the way of it.",
+   "body": "What sleep does for you, the myths around it and what gets in the way of it.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#11 of 99",
+    "Published": "2022-03-16",
+    "Length": "41:47",
+    "Playlist": "Health",
+    "On the episode": "Steve Bowman (Live and Lead)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 11,
+   "date": "2022-03-16",
+   "duration": "41:47",
+   "playlist": "health",
+   "guest": "Steve Bowman (Live and Lead)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-012",
+   "kind": "episode",
+   "title": "Cleaning Up Your Inner Circle",
+   "summary": "What your inner circle is, and how to decide who belongs in it.",
+   "body": "What your inner circle is, and how to decide who belongs in it.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#12 of 99",
+    "Published": "2022-03-23",
+    "Length": "42:32",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 12,
+   "date": "2022-03-23",
+   "duration": "42:32",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-013",
+   "kind": "episode",
+   "title": "How to Overcome Mistakes in the Workplace",
+   "summary": "Telling a mistake apart from a life lesson at work, and how to recover from both.",
+   "body": "Telling a mistake apart from a life lesson at work, and how to recover from both.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#13 of 99",
+    "Published": "2022-03-30",
+    "Length": "54:05",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Jolisa Webb Dudley, life coach",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 13,
+   "date": "2022-03-30",
+   "duration": "54:05",
+   "playlist": "career",
+   "guest": "Jolisa Webb Dudley, life coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-014",
+   "kind": "episode",
+   "title": "Hiring the Right Financial Planner",
+   "summary": "The difference between a certified financial planner and a financial planner, with real-life examples.",
+   "body": "The difference between a certified financial planner and a financial planner, with real-life examples.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#14 of 99",
+    "Published": "2022-04-13",
+    "Length": "44:04",
+    "Playlist": "Finances",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 14,
+   "date": "2022-04-13",
+   "duration": "44:04",
+   "playlist": "finance",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-015",
+   "kind": "episode",
+   "title": "What is an Intuitive Session?",
+   "summary": "The hosts’ own experience of finding an intuitive counselor, and what a session involves.",
+   "body": "The hosts’ own experience of finding an intuitive counselor, and what a session involves.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#15 of 99",
+    "Published": "2022-04-20",
+    "Length": "33:27",
+    "Playlist": "Spirituality",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 15,
+   "date": "2022-04-20",
+   "duration": "33:27",
+   "playlist": "spirituality",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-016",
+   "kind": "episode",
+   "title": "Eating Well",
+   "summary": "Practical keys to eating well and foods that can change how you feel.",
+   "body": "Practical keys to eating well and foods that can change how you feel.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#16 of 99",
+    "Published": "2022-04-27",
+    "Length": "38:16",
+    "Playlist": "Health",
+    "On the episode": "Steve Bowman (Live and Lead)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 16,
+   "date": "2022-04-27",
+   "duration": "38:16",
+   "playlist": "health",
+   "guest": "Steve Bowman (Live and Lead)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-017",
+   "kind": "episode",
+   "title": "Divorce Cues Are You Listening?",
+   "summary": "A divorce coach walks through the most common reasons marriages end, and the warning signs.",
+   "body": "A divorce coach walks through the most common reasons marriages end, and the warning signs.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#17 of 99",
+    "Published": "2022-05-18",
+    "Length": "47:22",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jolisa Webb Dudley, divorce coach",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 17,
+   "date": "2022-05-18",
+   "duration": "47:22",
+   "playlist": "relationships",
+   "guest": "Jolisa Webb Dudley, divorce coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-018",
+   "kind": "episode",
+   "title": "Understanding Your Credit",
+   "summary": "How to find out where your credit stands and how coaching can help you raise it.",
+   "body": "How to find out where your credit stands and how coaching can help you raise it.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#18 of 99",
+    "Published": "2022-06-01",
+    "Length": "33:46",
+    "Playlist": "Finances",
+    "On the episode": "Stephanie Jackson",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 18,
+   "date": "2022-06-01",
+   "duration": "33:46",
+   "playlist": "finance",
+   "guest": "Stephanie Jackson",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-019",
+   "kind": "episode",
+   "title": "Why Is It Important to have a Mentor?",
+   "summary": "A guest describes what personal coaching and mentoring changed for him.",
+   "body": "A guest describes what personal coaching and mentoring changed for him.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#19 of 99",
+    "Published": "2022-06-08",
+    "Length": "41:53",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Greg Moses",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 19,
+   "date": "2022-06-08",
+   "duration": "41:53",
+   "playlist": "career",
+   "guest": "Greg Moses",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-020",
+   "kind": "episode",
+   "title": "A Spiritual Discussion with Terri Pippin",
+   "summary": "An open conversation about spiritual energy with one of the show’s spiritual advisors.",
+   "body": "An open conversation about spiritual energy with one of the show’s spiritual advisors.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#20 of 99",
+    "Published": "2022-06-15",
+    "Length": "56:24",
+    "Playlist": "Spirituality",
+    "On the episode": "Terri Pippin",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 20,
+   "date": "2022-06-15",
+   "duration": "56:24",
+   "playlist": "spirituality",
+   "guest": "Terri Pippin",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-021",
+   "kind": "episode",
+   "title": "Do you have a healthy relationship with yourself?",
+   "summary": "What a healthy relationship with yourself looks like and why every other relationship depends on it.",
+   "body": "What a healthy relationship with yourself looks like and why every other relationship depends on it.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#21 of 99",
+    "Published": "2022-07-20",
+    "Length": "37:41",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 21,
+   "date": "2022-07-20",
+   "duration": "37:41",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-022",
+   "kind": "episode",
+   "title": "The Importance of Budgeting",
+   "summary": "Whether a budget can stop overspending, and how to build one that holds.",
+   "body": "Whether a budget can stop overspending, and how to build one that holds.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#22 of 99",
+    "Published": "2022-07-27",
+    "Length": "47:52",
+    "Playlist": "Finances",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 22,
+   "date": "2022-07-27",
+   "duration": "47:52",
+   "playlist": "finance",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-023",
+   "kind": "episode",
+   "title": "What is dating today?",
+   "summary": "How dating has changed and how society sees it now.",
+   "body": "How dating has changed and how society sees it now.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#23 of 99",
+    "Published": "2022-08-03",
+    "Length": "47:51",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 23,
+   "date": "2022-08-03",
+   "duration": "47:51",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-024",
+   "kind": "episode",
+   "title": "The three components to finances",
+   "summary": "The three parts of personal finance, from getting out of debt to starting to invest.",
+   "body": "The three parts of personal finance, from getting out of debt to starting to invest.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#24 of 99",
+    "Published": "2022-08-10",
+    "Length": "41:08",
+    "Playlist": "Finances",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 24,
+   "date": "2022-08-10",
+   "duration": "41:08",
+   "playlist": "finance",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-025",
+   "kind": "episode",
+   "title": "How the family can support during divorce",
+   "summary": "How family members can support someone they love through a divorce. (No description on Buzzsprout; summary from the April 2023 production schedule.)",
+   "body": "How family members can support someone they love through a divorce. (No description on Buzzsprout; summary from the April 2023 production schedule.)",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#25 of 99",
+    "Published": "2022-08-17",
+    "Length": "49:54",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jolisa Webb Dudley (per the production schedule)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 25,
+   "date": "2022-08-17",
+   "duration": "49:54",
+   "playlist": "relationships",
+   "guest": "Jolisa Webb Dudley (per the production schedule)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-026",
+   "kind": "episode",
+   "title": "Divorce and Children",
+   "summary": "Divorce and its effect on children. (No description on Buzzsprout; listen to confirm who is on it.)",
+   "body": "Divorce and its effect on children. (No description on Buzzsprout; listen to confirm who is on it.)",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#26 of 99",
+    "Published": "2022-08-24",
+    "Length": "57:58",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Not listed",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 26,
+   "date": "2022-08-24",
+   "duration": "57:58",
+   "playlist": "relationships",
+   "guest": "Not listed",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-027",
+   "kind": "episode",
+   "title": "Soul Care",
+   "summary": "What the soul is and simple ways to take care of it.",
+   "body": "What the soul is and simple ways to take care of it.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#27 of 99",
+    "Published": "2022-08-31",
+    "Length": "53:05",
+    "Playlist": "Spirituality",
+    "On the episode": "Stacy Y. Gibson",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 27,
+   "date": "2022-08-31",
+   "duration": "53:05",
+   "playlist": "spirituality",
+   "guest": "Stacy Y. Gibson",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-028",
+   "kind": "episode",
+   "title": "Taking Time to Heal Between Relationships",
+   "summary": "How to know you need to heal before starting something new, and how to do it.",
+   "body": "How to know you need to heal before starting something new, and how to do it.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#28 of 99",
+    "Published": "2022-09-07",
+    "Length": "43:10",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 28,
+   "date": "2022-09-07",
+   "duration": "43:10",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-029",
+   "kind": "episode",
+   "title": "Avoiding Risky Substances",
+   "summary": "Which substances are risky, and the truths and myths around them.",
+   "body": "Which substances are risky, and the truths and myths around them.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#29 of 99",
+    "Published": "2022-09-14",
+    "Length": "42:43",
+    "Playlist": "Health",
+    "On the episode": "Steve Bowman (Live and Lead)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 29,
+   "date": "2022-09-14",
+   "duration": "42:43",
+   "playlist": "health",
+   "guest": "Steve Bowman (Live and Lead)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-030",
+   "kind": "episode",
+   "title": "Real Estate",
+   "summary": "A real estate broker and investor on how the profession works and what to know before you start.",
+   "body": "A real estate broker and investor on how the profession works and what to know before you start.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#30 of 99",
+    "Published": "2022-09-21",
+    "Length": "1:01:28",
+    "Playlist": "Finances",
+    "On the episode": "Hakiim Herring (The Herring Group)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 30,
+   "date": "2022-09-21",
+   "duration": "1:01:28",
+   "playlist": "finance",
+   "guest": "Hakiim Herring (The Herring Group)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-031",
+   "kind": "episode",
+   "title": "Cultivating Relationships",
+   "summary": "Why healthy relationships matter to your health, and what good and bad ones do to you.",
+   "body": "Why healthy relationships matter to your health, and what good and bad ones do to you.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#31 of 99",
+    "Published": "2022-09-28",
+    "Length": "41:47",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Steve Bowman (Live and Lead)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 31,
+   "date": "2022-09-28",
+   "duration": "41:47",
+   "playlist": "relationships",
+   "guest": "Steve Bowman (Live and Lead)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-032",
+   "kind": "episode",
+   "title": "The Importance of Forgiving Yourself for Relational Failures",
+   "summary": "Letting go of blame after a relationship ends, and what forgiveness really means.",
+   "body": "Letting go of blame after a relationship ends, and what forgiveness really means.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#32 of 99",
+    "Published": "2022-10-05",
+    "Length": "43:50",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 32,
+   "date": "2022-10-05",
+   "duration": "43:50",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-033",
+   "kind": "episode",
+   "title": "Young Black Entrepreneurship",
+   "summary": "A young Black real estate founder on building a business and the lessons along the way.",
+   "body": "A young Black real estate founder on building a business and the lessons along the way.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#33 of 99",
+    "Published": "2022-10-12",
+    "Length": "54:28",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Hakiim Herring (The Herring Group)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 33,
+   "date": "2022-10-12",
+   "duration": "54:28",
+   "playlist": "career",
+   "guest": "Hakiim Herring (The Herring Group)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-034",
+   "kind": "episode",
+   "title": "A Journey Through One's Career",
+   "summary": "An attorney, activist and political strategist tells the story of her career so far.",
+   "body": "An attorney, activist and political strategist tells the story of her career so far.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#34 of 99",
+    "Published": "2022-10-19",
+    "Length": "44:45",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Amaris Leon",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 34,
+   "date": "2022-10-19",
+   "duration": "44:45",
+   "playlist": "career",
+   "guest": "Amaris Leon",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-035",
+   "kind": "episode",
+   "title": "Dating at Different Ages and Stages",
+   "summary": "How dating differs at different ages and stages of life.",
+   "body": "How dating differs at different ages and stages of life.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#35 of 99",
+    "Published": "2022-10-26",
+    "Length": "33:59",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 35,
+   "date": "2022-10-26",
+   "duration": "33:59",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-036",
+   "kind": "episode",
+   "title": "Community Involvement",
+   "summary": "Why getting involved in your community matters, and practical ways to start.",
+   "body": "Why getting involved in your community matters, and practical ways to start.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living"
+   ],
+   "details": {
+    "Episode": "#36 of 99",
+    "Published": "2022-11-02",
+    "Length": "40:02",
+    "Playlist": "Holistic Living",
+    "On the episode": "Amaris Leon",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 36,
+   "date": "2022-11-02",
+   "duration": "40:02",
+   "playlist": "holistic",
+   "guest": "Amaris Leon",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-037",
+   "kind": "episode",
+   "title": "How do I become a life coach?",
+   "summary": "What becoming a life coach involves, including the good and the hard parts.",
+   "body": "What becoming a life coach involves, including the good and the hard parts.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#37 of 99",
+    "Published": "2022-11-09",
+    "Length": "46:49",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 37,
+   "date": "2022-11-09",
+   "duration": "46:49",
+   "playlist": "career",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-038",
+   "kind": "episode",
+   "title": "How do I leave a legacy for my family?",
+   "summary": "What a legacy is, who it is for and how to start building one for your family.",
+   "body": "What a legacy is, who it is for and how to start building one for your family.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#38 of 99",
+    "Published": "2022-11-16",
+    "Length": "38:15",
+    "Playlist": "Finances",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 38,
+   "date": "2022-11-16",
+   "duration": "38:15",
+   "playlist": "finance",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-039",
+   "kind": "episode",
+   "title": "Thanksgiving",
+   "summary": "Thanksgiving seen through the show’s main areas of life.",
+   "body": "Thanksgiving seen through the show’s main areas of life.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#39 of 99",
+    "Published": "2022-11-23",
+    "Length": "50:42",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 39,
+   "date": "2022-11-23",
+   "duration": "50:42",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-040",
+   "kind": "episode",
+   "title": "After Thanksgiving Thoughts",
+   "summary": "Reflections after Thanksgiving, tied back to the main areas of life.",
+   "body": "Reflections after Thanksgiving, tied back to the main areas of life.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#40 of 99",
+    "Published": "2022-11-30",
+    "Length": "47:06",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 40,
+   "date": "2022-11-30",
+   "duration": "47:06",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-041",
+   "kind": "episode",
+   "title": "Being A Podcast Host",
+   "summary": "A podcast host, author, actress and poet on what hosting her own show has taught her.",
+   "body": "A podcast host, author, actress and poet on what hosting her own show has taught her.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#41 of 99",
+    "Published": "2022-12-07",
+    "Length": "42:52",
+    "Playlist": "Career & Purpose",
+    "On the episode": "B.J. Martin",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 41,
+   "date": "2022-12-07",
+   "duration": "42:52",
+   "playlist": "career",
+   "guest": "B.J. Martin",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-042",
+   "kind": "episode",
+   "title": "Year End Wrap up Part One",
+   "summary": "Part one of a look back at the year’s themes on the show.",
+   "body": "Part one of a look back at the year’s themes on the show.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#42 of 99",
+    "Published": "2022-12-14",
+    "Length": "33:16",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 42,
+   "date": "2022-12-14",
+   "duration": "33:16",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-043",
+   "kind": "episode",
+   "title": "Christmas (Part 1)",
+   "summary": "Christmas seen through the show’s main areas of life.",
+   "body": "Christmas seen through the show’s main areas of life.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#43 of 99",
+    "Published": "2022-12-21",
+    "Length": "47:10",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 43,
+   "date": "2022-12-21",
+   "duration": "47:10",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-044",
+   "kind": "episode",
+   "title": "Year End Wrap Part Two",
+   "summary": "Part two of the look back at the year’s themes on the show.",
+   "body": "Part two of the look back at the year’s themes on the show.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "pilot"
+   ],
+   "details": {
+    "Episode": "#44 of 99",
+    "Published": "2022-12-28",
+    "Length": "36:50",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Pilot audio": "Hosted in ABL’s own storage",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 44,
+   "date": "2022-12-28",
+   "duration": "36:50",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": "https://jlwolssfdspougmdxfmf.supabase.co/storage/v1/object/public/abl-podcast/year-end-wrap-part-two.mp3"
+  },
+  {
+   "id": "ep-045",
+   "kind": "episode",
+   "title": "After Christmas Has Past",
+   "summary": "Thoughts and feelings once Christmas is over, and how they touch each area of life.",
+   "body": "Thoughts and feelings once Christmas is over, and how they touch each area of life.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#45 of 99",
+    "Published": "2023-01-04",
+    "Length": "40:31",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 45,
+   "date": "2023-01-04",
+   "duration": "40:31",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-046",
+   "kind": "episode",
+   "title": "Being a Health Advocate",
+   "summary": "What it means to advocate for your own health and other people’s, from a returning guest.",
+   "body": "What it means to advocate for your own health and other people’s, from a returning guest.",
+   "tags": [
+    "episode",
+    "health",
+    "health",
+    "pilot"
+   ],
+   "details": {
+    "Episode": "#46 of 99",
+    "Published": "2023-01-11",
+    "Length": "46:07",
+    "Playlist": "Health",
+    "On the episode": "B.J. Martin",
+    "Pilot audio": "Hosted in ABL’s own storage",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 46,
+   "date": "2023-01-11",
+   "duration": "46:07",
+   "playlist": "health",
+   "guest": "B.J. Martin",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": "https://jlwolssfdspougmdxfmf.supabase.co/storage/v1/object/public/abl-podcast/being-a-health-advocate.mp3"
+  },
+  {
+   "id": "ep-047",
+   "kind": "episode",
+   "title": "New Beginnings for 2023",
+   "summary": "A new-year introduction that walks through the seven themes the show is built on.",
+   "body": "A new-year introduction that walks through the seven themes the show is built on.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living"
+   ],
+   "details": {
+    "Episode": "#47 of 99",
+    "Published": "2023-01-18",
+    "Length": "33:45",
+    "Playlist": "Holistic Living",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 47,
+   "date": "2023-01-18",
+   "duration": "33:45",
+   "playlist": "holistic",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-048",
+   "kind": "episode",
+   "title": "Introducing Abundance Legacy!",
+   "summary": "The founder introduces Abundance Legacy, the international nonprofit behind the podcast.",
+   "body": "The founder introduces Abundance Legacy, the international nonprofit behind the podcast.",
+   "tags": [
+    "episode",
+    "abl",
+    "about abundance legacy"
+   ],
+   "details": {
+    "Episode": "#48 of 99",
+    "Published": "2023-01-25",
+    "Length": "27:20",
+    "Playlist": "About Abundance Legacy",
+    "On the episode": "Nathaniel X. Ross and team",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 48,
+   "date": "2023-01-25",
+   "duration": "27:20",
+   "playlist": "abl",
+   "guest": "Nathaniel X. Ross and team",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-049",
+   "kind": "episode",
+   "title": "Spirituality",
+   "summary": "An open conversation about spirituality as one of the show’s core themes.",
+   "body": "An open conversation about spirituality as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality"
+   ],
+   "details": {
+    "Episode": "#49 of 99",
+    "Published": "2023-02-01",
+    "Length": "37:08",
+    "Playlist": "Spirituality",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 49,
+   "date": "2023-02-01",
+   "duration": "37:08",
+   "playlist": "spirituality",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-050",
+   "kind": "episode",
+   "title": "Health 2023",
+   "summary": "An open conversation about health as one of the show’s core themes.",
+   "body": "An open conversation about health as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#50 of 99",
+    "Published": "2023-02-08",
+    "Length": "31:50",
+    "Playlist": "Health",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 50,
+   "date": "2023-02-08",
+   "duration": "31:50",
+   "playlist": "health",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-051",
+   "kind": "episode",
+   "title": "Relationships",
+   "summary": "An open conversation about relationships as one of the show’s core themes.",
+   "body": "An open conversation about relationships as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#51 of 99",
+    "Published": "2023-02-15",
+    "Length": "34:12",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 51,
+   "date": "2023-02-15",
+   "duration": "34:12",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-052",
+   "kind": "episode",
+   "title": "Career 2023",
+   "summary": "An open conversation about career as one of the show’s core themes.",
+   "body": "An open conversation about career as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#52 of 99",
+    "Published": "2023-02-22",
+    "Length": "37:31",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 52,
+   "date": "2023-02-22",
+   "duration": "37:31",
+   "playlist": "career",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-053",
+   "kind": "episode",
+   "title": "Finances 2023",
+   "summary": "An open conversation about money as one of the show’s core themes.",
+   "body": "An open conversation about money as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#53 of 99",
+    "Published": "2023-03-01",
+    "Length": "43:26",
+    "Playlist": "Finances",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 53,
+   "date": "2023-03-01",
+   "duration": "43:26",
+   "playlist": "finance",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-054",
+   "kind": "episode",
+   "title": "ABL Services - Part One",
+   "summary": "Part one of a walk through Abundance Legacy’s products and services.",
+   "body": "Part one of a walk through Abundance Legacy’s products and services.",
+   "tags": [
+    "episode",
+    "abl",
+    "about abundance legacy"
+   ],
+   "details": {
+    "Episode": "#54 of 99",
+    "Published": "2023-03-08",
+    "Length": "31:28",
+    "Playlist": "About Abundance Legacy",
+    "On the episode": "Nathaniel X. Ross and team",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 54,
+   "date": "2023-03-08",
+   "duration": "31:28",
+   "playlist": "abl",
+   "guest": "Nathaniel X. Ross and team",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-055",
+   "kind": "episode",
+   "title": "ABL Services - Part Two",
+   "summary": "Part two of the walk through Abundance Legacy’s products and services.",
+   "body": "Part two of the walk through Abundance Legacy’s products and services.",
+   "tags": [
+    "episode",
+    "abl",
+    "about abundance legacy"
+   ],
+   "details": {
+    "Episode": "#55 of 99",
+    "Published": "2023-03-15",
+    "Length": "31:10",
+    "Playlist": "About Abundance Legacy",
+    "On the episode": "Nathaniel X. Ross and team",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 55,
+   "date": "2023-03-15",
+   "duration": "31:10",
+   "playlist": "abl",
+   "guest": "Nathaniel X. Ross and team",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-056",
+   "kind": "episode",
+   "title": "Coaching - Part 1",
+   "summary": "The founder answers common questions about coaching, including the upsides and downsides of being a life coach.",
+   "body": "The founder answers common questions about coaching, including the upsides and downsides of being a life coach.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#56 of 99",
+    "Published": "2023-03-22",
+    "Length": "32:43",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 56,
+   "date": "2023-03-22",
+   "duration": "32:43",
+   "playlist": "career",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-057",
+   "kind": "episode",
+   "title": "Coaching - Part 2",
+   "summary": "More questions about coaching, answered by the founder.",
+   "body": "More questions about coaching, answered by the founder.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#57 of 99",
+    "Published": "2023-03-29",
+    "Length": "30:16",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Nathaniel X. Ross",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 57,
+   "date": "2023-03-29",
+   "duration": "30:16",
+   "playlist": "career",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-058",
+   "kind": "episode",
+   "title": "Women's Impact",
+   "summary": "A real estate broker and CEO in Punta Cana shares her journey in business.",
+   "body": "A real estate broker and CEO in Punta Cana shares her journey in business.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#58 of 99",
+    "Published": "2023-04-05",
+    "Length": "51:20",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Sabine Vicoso David (Lunovi Real Estate)",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 58,
+   "date": "2023-04-05",
+   "duration": "51:20",
+   "playlist": "career",
+   "guest": "Sabine Vicoso David (Lunovi Real Estate)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-059",
+   "kind": "episode",
+   "title": "Am I Doing What I Love? If Not Why Not?",
+   "summary": "Balancing work with doing what you love, and the myths around work-life balance.",
+   "body": "Balancing work with doing what you love, and the myths around work-life balance.\n\nSame length as #8 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#59 of 99",
+    "Published": "2023-04-12",
+    "Length": "56:01",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Jolisa Webb Dudley, life coach",
+    "Repeat": "Same length as #8 — a straight re-air.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 59,
+   "date": "2023-04-12",
+   "duration": "56:01",
+   "playlist": "career",
+   "guest": "Jolisa Webb Dudley, life coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-008",
+   "audio": null
+  },
+  {
+   "id": "ep-060",
+   "kind": "episode",
+   "title": "Deep Dive into Relationships Part 1",
+   "summary": "Part one of a long conversation about romantic relationships.",
+   "body": "Part one of a long conversation about romantic relationships.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#60 of 99",
+    "Published": "2023-04-19",
+    "Length": "57:00",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 60,
+   "date": "2023-04-19",
+   "duration": "57:00",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-061",
+   "kind": "episode",
+   "title": "Deep Dive Into Relationships Part 2",
+   "summary": "Part two of the conversation about romantic relationships.",
+   "body": "Part two of the conversation about romantic relationships.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#61 of 99",
+    "Published": "2023-04-26",
+    "Length": "50:44",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 61,
+   "date": "2023-04-26",
+   "duration": "50:44",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-062",
+   "kind": "episode",
+   "title": "Natural Health Care",
+   "summary": "A former pharmaceutical professional explains how a serious illness led her to natural medicine.",
+   "body": "A former pharmaceutical professional explains how a serious illness led her to natural medicine.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#62 of 99",
+    "Published": "2023-05-03",
+    "Length": "59:08",
+    "Playlist": "Health",
+    "On the episode": "JulieAnn Engel",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 62,
+   "date": "2023-05-03",
+   "duration": "59:08",
+   "playlist": "health",
+   "guest": "JulieAnn Engel",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-063",
+   "kind": "episode",
+   "title": "Cleaning Up Your Inner Circle",
+   "summary": "What your inner circle is, and how to decide who belongs in it.",
+   "body": "What your inner circle is, and how to decide who belongs in it.\n\nSame length as #12 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#63 of 99",
+    "Published": "2023-05-10",
+    "Length": "42:32",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jessica Karin (co-host)",
+    "Repeat": "Same length as #12 — a straight re-air.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 63,
+   "date": "2023-05-10",
+   "duration": "42:32",
+   "playlist": "relationships",
+   "guest": "Jessica Karin (co-host)",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-012",
+   "audio": null
+  },
+  {
+   "id": "ep-064",
+   "kind": "episode",
+   "title": "How to Overcome Mistakes in the Workplace",
+   "summary": "Telling a mistake apart from a life lesson at work, and how to recover from both.",
+   "body": "Telling a mistake apart from a life lesson at work, and how to recover from both.\n\nSame length as #13 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#64 of 99",
+    "Published": "2023-05-17",
+    "Length": "54:05",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Jolisa Webb Dudley, life coach",
+    "Repeat": "Same length as #13 — a straight re-air.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 64,
+   "date": "2023-05-17",
+   "duration": "54:05",
+   "playlist": "career",
+   "guest": "Jolisa Webb Dudley, life coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-013",
+   "audio": null
+  },
+  {
+   "id": "ep-065",
+   "kind": "episode",
+   "title": "Holistic Living",
+   "summary": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.",
+   "body": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.\n\nSame title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#65 of 99",
+    "Published": "2023-05-24",
+    "Length": "37:02",
+    "Playlist": "Holistic Living",
+    "On the episode": "Hosts only",
+    "Repeat": "Same title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 65,
+   "date": "2023-05-24",
+   "duration": "37:02",
+   "playlist": "holistic",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-001",
+   "audio": null
+  },
+  {
+   "id": "ep-066",
+   "kind": "episode",
+   "title": "Father's Day",
+   "summary": "The hosts share personal stories about fatherhood and why it matters.",
+   "body": "The hosts share personal stories about fatherhood and why it matters.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#66 of 99",
+    "Published": "2023-05-31",
+    "Length": "30:30",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Nate, Jessica and Stephanie",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 66,
+   "date": "2023-05-31",
+   "duration": "30:30",
+   "playlist": "seasonal",
+   "guest": "Nate, Jessica and Stephanie",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-067",
+   "kind": "episode",
+   "title": "Father's Day Part Two",
+   "summary": "Part two of the Father’s Day conversation.",
+   "body": "Part two of the Father’s Day conversation.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end"
+   ],
+   "details": {
+    "Episode": "#67 of 99",
+    "Published": "2023-06-07",
+    "Length": "36:30",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Nate, Jessica and Stephanie",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 67,
+   "date": "2023-06-07",
+   "duration": "36:30",
+   "playlist": "seasonal",
+   "guest": "Nate, Jessica and Stephanie",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-068",
+   "kind": "episode",
+   "title": "Divorce Cues Are You Listening?",
+   "summary": "A divorce coach walks through the most common reasons marriages end, and the warning signs.",
+   "body": "A divorce coach walks through the most common reasons marriages end, and the warning signs.\n\nSame length as #17 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#68 of 99",
+    "Published": "2023-06-14",
+    "Length": "47:22",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Jolisa Webb Dudley, divorce coach",
+    "Repeat": "Same length as #17 — a straight re-air.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 68,
+   "date": "2023-06-14",
+   "duration": "47:22",
+   "playlist": "relationships",
+   "guest": "Jolisa Webb Dudley, divorce coach",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-017",
+   "audio": null
+  },
+  {
+   "id": "ep-069",
+   "kind": "episode",
+   "title": "Health - Know Your Labels",
+   "summary": "Reading and understanding the labels on what you eat.",
+   "body": "Reading and understanding the labels on what you eat.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#69 of 99",
+    "Published": "2023-06-21",
+    "Length": "36:29",
+    "Playlist": "Health",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 69,
+   "date": "2023-06-21",
+   "duration": "36:29",
+   "playlist": "health",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-070",
+   "kind": "episode",
+   "title": "Family (Cleaning up your inner circle)",
+   "summary": "Family as a core theme, and cleaning up the circle of people closest to you.",
+   "body": "Family as a core theme, and cleaning up the circle of people closest to you.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#70 of 99",
+    "Published": "2023-06-28",
+    "Length": "44:17",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 70,
+   "date": "2023-06-28",
+   "duration": "44:17",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-071",
+   "kind": "episode",
+   "title": "Soul Care",
+   "summary": "What the soul is and simple ways to take care of it.",
+   "body": "What the soul is and simple ways to take care of it.\n\nSame length as #27 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "spirituality",
+    "spirituality",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#71 of 99",
+    "Published": "2023-07-05",
+    "Length": "53:05",
+    "Playlist": "Spirituality",
+    "On the episode": "Stacy Y. Gibson",
+    "Repeat": "Same length as #27 — a straight re-air.",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 71,
+   "date": "2023-07-05",
+   "duration": "53:05",
+   "playlist": "spirituality",
+   "guest": "Stacy Y. Gibson",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": "ep-027",
+   "audio": null
+  },
+  {
+   "id": "ep-072",
+   "kind": "episode",
+   "title": "Holistic Education",
+   "summary": "Education as one of the show’s core themes.",
+   "body": "Education as one of the show’s core themes.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living"
+   ],
+   "details": {
+    "Episode": "#72 of 99",
+    "Published": "2023-07-12",
+    "Length": "35:36",
+    "Playlist": "Holistic Living",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 72,
+   "date": "2023-07-12",
+   "duration": "35:36",
+   "playlist": "holistic",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-073",
+   "kind": "episode",
+   "title": "How Do You Handle Death?",
+   "summary": "An honest conversation about death and how each host approaches it.",
+   "body": "An honest conversation about death and how each host approaches it.",
+   "tags": [
+    "episode",
+    "holistic",
+    "holistic living"
+   ],
+   "details": {
+    "Episode": "#73 of 99",
+    "Published": "2023-07-19",
+    "Length": "37:51",
+    "Playlist": "Holistic Living",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 73,
+   "date": "2023-07-19",
+   "duration": "37:51",
+   "playlist": "holistic",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-074",
+   "kind": "episode",
+   "title": "Finance 2023",
+   "summary": "Money as one of the show’s core themes, with the hosts’ own views.",
+   "body": "Money as one of the show’s core themes, with the hosts’ own views.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances",
+    "pilot"
+   ],
+   "details": {
+    "Episode": "#74 of 99",
+    "Published": "2023-07-26",
+    "Length": "44:36",
+    "Playlist": "Finances",
+    "On the episode": "Hosts only",
+    "Pilot audio": "Hosted in ABL’s own storage",
+    "Buzzsprout link": "Show page (direct link not collected yet)"
+   },
+   "n": 74,
+   "date": "2023-07-26",
+   "duration": "44:36",
+   "playlist": "finance",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes",
+   "urlConfirmed": false,
+   "repeatOf": null,
+   "audio": "https://jlwolssfdspougmdxfmf.supabase.co/storage/v1/object/public/abl-podcast/finance-2023.mp3"
+  },
+  {
+   "id": "ep-075",
+   "kind": "episode",
+   "title": "Inner Victory Champions",
+   "summary": "The founder and trainer of Inner Victory Champions shares his story and vision.",
+   "body": "The founder and trainer of Inner Victory Champions shares his story and vision.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#75 of 99",
+    "Published": "2023-08-02",
+    "Length": "53:38",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Accolon Hollingsworth",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 75,
+   "date": "2023-08-02",
+   "duration": "53:38",
+   "playlist": "career",
+   "guest": "Accolon Hollingsworth",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13334191-inner-victory-champions",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-076",
+   "kind": "episode",
+   "title": "A Conversation with Robin Tasco",
+   "summary": "From master electrician to best-selling author: a guest’s career change.",
+   "body": "From master electrician to best-selling author: a guest’s career change.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose"
+   ],
+   "details": {
+    "Episode": "#76 of 99",
+    "Published": "2023-08-09",
+    "Length": "47:26",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Robin Tasco",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 76,
+   "date": "2023-08-09",
+   "duration": "47:26",
+   "playlist": "career",
+   "guest": "Robin Tasco",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13373768-a-conversation-with-robin-tasco",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-077",
+   "kind": "episode",
+   "title": "Is Your Career Your Passion?",
+   "summary": "How to recognise your passion and the signs that a job is genuinely satisfying.",
+   "body": "How to recognise your passion and the signs that a job is genuinely satisfying.\n\nSame title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#77 of 99",
+    "Published": "2023-08-16",
+    "Length": "38:06",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Hosts only",
+    "Repeat": "Same title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 77,
+   "date": "2023-08-16",
+   "duration": "38:06",
+   "playlist": "career",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13415954-is-your-career-your-passion",
+   "urlConfirmed": true,
+   "repeatOf": "ep-004",
+   "audio": null
+  },
+  {
+   "id": "ep-078",
+   "kind": "episode",
+   "title": "Short Cuts and Baggage",
+   "summary": "Two hot-button topics: taking shortcuts, and carrying emotional baggage.",
+   "body": "Two hot-button topics: taking shortcuts, and carrying emotional baggage.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#78 of 99",
+    "Published": "2023-08-23",
+    "Length": "37:35",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 78,
+   "date": "2023-08-23",
+   "duration": "37:35",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13456987-short-cuts-and-baggage",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-079",
+   "kind": "episode",
+   "title": "Toxic Relationship Advice (Women's Edition)",
+   "summary": "A look at the relationship advice trending on social media, aimed at women.",
+   "body": "A look at the relationship advice trending on social media, aimed at women.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#79 of 99",
+    "Published": "2023-08-30",
+    "Length": "51:35",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 79,
+   "date": "2023-08-30",
+   "duration": "51:35",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13495136-toxic-relationship-advice-women-s-edition",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-080",
+   "kind": "episode",
+   "title": "Toxic Relationship Advice (Men's Edition)",
+   "summary": "A look at the relationship advice trending on social media, aimed at men.",
+   "body": "A look at the relationship advice trending on social media, aimed at men.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#80 of 99",
+    "Published": "2023-09-06",
+    "Length": "48:11",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 80,
+   "date": "2023-09-06",
+   "duration": "48:11",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13537156-toxic-relationship-advice-men-s-edition",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-081",
+   "kind": "episode",
+   "title": "Deep Dive into Relationships Part 1",
+   "summary": "Part one of a long conversation about romantic relationships.",
+   "body": "Part one of a long conversation about romantic relationships.\n\nSame length as #60 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#81 of 99",
+    "Published": "2023-09-13",
+    "Length": "57:00",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Repeat": "Same length as #60 — a straight re-air.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 81,
+   "date": "2023-09-13",
+   "duration": "57:00",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13581203-deep-dive-into-relationships-part-1",
+   "urlConfirmed": true,
+   "repeatOf": "ep-060",
+   "audio": null
+  },
+  {
+   "id": "ep-082",
+   "kind": "episode",
+   "title": "Deep Dive Into Relationships Part 2",
+   "summary": "Part two of the conversation about romantic relationships.",
+   "body": "Part two of the conversation about romantic relationships.\n\nSame length as #61 — a straight re-air. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#82 of 99",
+    "Published": "2023-09-20",
+    "Length": "50:44",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts only",
+    "Repeat": "Same length as #61 — a straight re-air.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 82,
+   "date": "2023-09-20",
+   "duration": "50:44",
+   "playlist": "relationships",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13627189-deep-dive-into-relationships-part-2",
+   "urlConfirmed": true,
+   "repeatOf": "ep-061",
+   "audio": null
+  },
+  {
+   "id": "ep-083",
+   "kind": "episode",
+   "title": "Relationship Transitions",
+   "summary": "A farewell to co-host Jessica and a welcome to a new team member.",
+   "body": "A farewell to co-host Jessica and a welcome to a new team member.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#83 of 99",
+    "Published": "2023-09-27",
+    "Length": "51:33",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Marissa Bloedoorn (TCS Consulting)",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 83,
+   "date": "2023-09-27",
+   "duration": "51:33",
+   "playlist": "relationships",
+   "guest": "Marissa Bloedoorn (TCS Consulting)",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13671939-relationship-transitions",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-084",
+   "kind": "episode",
+   "title": "Relationships from the Couples Perspective",
+   "summary": "What it takes to make a relationship last, from a couple’s point of view.",
+   "body": "What it takes to make a relationship last, from a couple’s point of view.",
+   "tags": [
+    "episode",
+    "relationships",
+    "family & relationships"
+   ],
+   "details": {
+    "Episode": "#84 of 99",
+    "Published": "2023-10-04",
+    "Length": "1:05:12",
+    "Playlist": "Family & Relationships",
+    "On the episode": "Hosts and guests",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 84,
+   "date": "2023-10-04",
+   "duration": "1:05:12",
+   "playlist": "relationships",
+   "guest": "Hosts and guests",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13714633-relationships-from-the-couples-perspective",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-085",
+   "kind": "episode",
+   "title": "How Your Finances Impact Your Life",
+   "summary": "Seven steps to consider with your money, and the difference between wealth and being rich.",
+   "body": "Seven steps to consider with your money, and the difference between wealth and being rich.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#85 of 99",
+    "Published": "2023-10-11",
+    "Length": "1:02:23",
+    "Playlist": "Finances",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 85,
+   "date": "2023-10-11",
+   "duration": "1:02:23",
+   "playlist": "finance",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13758254-how-your-finances-impact-your-life",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-086",
+   "kind": "episode",
+   "title": "The Six Elements of Good Health Part One",
+   "summary": "The first half of six elements of good health: eating, exercise and sleep.",
+   "body": "The first half of six elements of good health: eating, exercise and sleep.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#86 of 99",
+    "Published": "2023-10-18",
+    "Length": "51:31",
+    "Playlist": "Health",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 86,
+   "date": "2023-10-18",
+   "duration": "51:31",
+   "playlist": "health",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13801515-the-six-elements-of-good-health-part-one",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-087",
+   "kind": "episode",
+   "title": "The Six Elements of Good Health Part Two",
+   "summary": "The second half: obesity, diabetes, high cholesterol and ways to keep them in check.",
+   "body": "The second half: obesity, diabetes, high cholesterol and ways to keep them in check.",
+   "tags": [
+    "episode",
+    "health",
+    "health"
+   ],
+   "details": {
+    "Episode": "#87 of 99",
+    "Published": "2023-10-25",
+    "Length": "36:51",
+    "Playlist": "Health",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 87,
+   "date": "2023-10-25",
+   "duration": "36:51",
+   "playlist": "health",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13843681-the-six-elements-of-good-health-part-two",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-088",
+   "kind": "episode",
+   "title": "Thanksgiving",
+   "summary": "Thanksgiving seen through the show’s main areas of life.",
+   "body": "Thanksgiving seen through the show’s main areas of life.\n\nExactly 1 min 51 s longer than #39 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#88 of 99",
+    "Published": "2023-11-01",
+    "Length": "52:33",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #39 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 88,
+   "date": "2023-11-01",
+   "duration": "52:33",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13888609-thanksgiving",
+   "urlConfirmed": true,
+   "repeatOf": "ep-039",
+   "audio": null
+  },
+  {
+   "id": "ep-089",
+   "kind": "episode",
+   "title": "After Thanksgiving Thoughts",
+   "summary": "Reflections after Thanksgiving, tied back to the main areas of life.",
+   "body": "Reflections after Thanksgiving, tied back to the main areas of life.\n\nExactly 1 min 51 s longer than #40 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#89 of 99",
+    "Published": "2023-11-08",
+    "Length": "48:57",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #40 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 89,
+   "date": "2023-11-08",
+   "duration": "48:57",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13933555-after-thanksgiving-thoughts",
+   "urlConfirmed": true,
+   "repeatOf": "ep-040",
+   "audio": null
+  },
+  {
+   "id": "ep-090",
+   "kind": "episode",
+   "title": "Investments",
+   "summary": "A short case for why everyone needs investments to support their later years.",
+   "body": "A short case for why everyone needs investments to support their later years.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances"
+   ],
+   "details": {
+    "Episode": "#90 of 99",
+    "Published": "2023-11-15",
+    "Length": "47:54",
+    "Playlist": "Finances",
+    "On the episode": "Hosts only",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 90,
+   "date": "2023-11-15",
+   "duration": "47:54",
+   "playlist": "finance",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/13978357-investments",
+   "urlConfirmed": true,
+   "repeatOf": null,
+   "audio": null
+  },
+  {
+   "id": "ep-091",
+   "kind": "episode",
+   "title": "Christmas (Part 1)",
+   "summary": "Christmas seen through the show’s main areas of life.",
+   "body": "Christmas seen through the show’s main areas of life.\n\nExactly 1 min 51 s longer than #43 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#91 of 99",
+    "Published": "2023-11-22",
+    "Length": "49:01",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #43 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 91,
+   "date": "2023-11-22",
+   "duration": "49:01",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14014601-christmas-part-1",
+   "urlConfirmed": true,
+   "repeatOf": "ep-043",
+   "audio": null
+  },
+  {
+   "id": "ep-092",
+   "kind": "episode",
+   "title": "After Christmas Has Past",
+   "summary": "Thoughts and feelings once Christmas is over, and how they touch each area of life.",
+   "body": "Thoughts and feelings once Christmas is over, and how they touch each area of life.\n\nExactly 1 min 51 s longer than #45 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#92 of 99",
+    "Published": "2023-11-29",
+    "Length": "42:22",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #45 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 92,
+   "date": "2023-11-29",
+   "duration": "42:22",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14014609-after-christmas-has-past",
+   "urlConfirmed": true,
+   "repeatOf": "ep-045",
+   "audio": null
+  },
+  {
+   "id": "ep-093",
+   "kind": "episode",
+   "title": "Coaching - Part 1",
+   "summary": "The founder answers common questions about coaching, including the upsides and downsides of being a life coach.",
+   "body": "The founder answers common questions about coaching, including the upsides and downsides of being a life coach.\n\nExactly 1 min 51 s longer than #56 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#93 of 99",
+    "Published": "2023-12-06",
+    "Length": "34:34",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Nathaniel X. Ross",
+    "Repeat": "Exactly 1 min 51 s longer than #56 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 93,
+   "date": "2023-12-06",
+   "duration": "34:34",
+   "playlist": "career",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14100273-coaching-part-1",
+   "urlConfirmed": true,
+   "repeatOf": "ep-056",
+   "audio": null
+  },
+  {
+   "id": "ep-094",
+   "kind": "episode",
+   "title": "Coaching - Part 2",
+   "summary": "More questions about coaching, answered by the founder.",
+   "body": "More questions about coaching, answered by the founder.\n\nExactly 1 min 51 s longer than #57 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#94 of 99",
+    "Published": "2023-12-13",
+    "Length": "32:07",
+    "Playlist": "Career & Purpose",
+    "On the episode": "Nathaniel X. Ross",
+    "Repeat": "Exactly 1 min 51 s longer than #57 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 94,
+   "date": "2023-12-13",
+   "duration": "32:07",
+   "playlist": "career",
+   "guest": "Nathaniel X. Ross",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14135763-coaching-part-2",
+   "urlConfirmed": true,
+   "repeatOf": "ep-057",
+   "audio": null
+  },
+  {
+   "id": "ep-095",
+   "kind": "episode",
+   "title": "Finance 2023",
+   "summary": "Money as one of the show’s core themes, with the hosts’ own views.",
+   "body": "Money as one of the show’s core themes, with the hosts’ own views.\n\nSame title as #74 but +41 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "finance",
+    "finances",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#95 of 99",
+    "Published": "2023-12-20",
+    "Length": "45:17",
+    "Playlist": "Finances",
+    "On the episode": "Hosts only",
+    "Repeat": "Same title as #74 but +41 seconds different in length — listen to the opening to tell whether it is a new recording.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 95,
+   "date": "2023-12-20",
+   "duration": "45:17",
+   "playlist": "finance",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14135799-finance-2023",
+   "urlConfirmed": true,
+   "repeatOf": "ep-074",
+   "audio": null
+  },
+  {
+   "id": "ep-096",
+   "kind": "episode",
+   "title": "Year End Wrap up Part One",
+   "summary": "Part one of a look back at the year’s themes on the show.",
+   "body": "Part one of a look back at the year’s themes on the show.\n\nExactly 1 min 51 s longer than #42 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#96 of 99",
+    "Published": "2023-12-27",
+    "Length": "35:08",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #42 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 96,
+   "date": "2023-12-27",
+   "duration": "35:08",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14135865-year-end-wrap-up-part-one",
+   "urlConfirmed": true,
+   "repeatOf": "ep-042",
+   "audio": null
+  },
+  {
+   "id": "ep-097",
+   "kind": "episode",
+   "title": "Year End Wrap Part Two",
+   "summary": "Part two of the look back at the year’s themes on the show.",
+   "body": "Part two of the look back at the year’s themes on the show.\n\nExactly 1 min 51 s longer than #44 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "seasonal",
+    "holidays & year-end",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#97 of 99",
+    "Published": "2024-01-03",
+    "Length": "38:41",
+    "Playlist": "Holidays & Year-End",
+    "On the episode": "Hosts only",
+    "Repeat": "Exactly 1 min 51 s longer than #44 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 97,
+   "date": "2024-01-03",
+   "duration": "38:41",
+   "playlist": "seasonal",
+   "guest": "Hosts only",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14135878-year-end-wrap-part-two",
+   "urlConfirmed": true,
+   "repeatOf": "ep-044",
+   "audio": null
+  },
+  {
+   "id": "ep-098",
+   "kind": "episode",
+   "title": "Being a Health Advocate",
+   "summary": "What it means to advocate for your own health and other people’s, from a returning guest.",
+   "body": "What it means to advocate for your own health and other people’s, from a returning guest.\n\nExactly 1 min 51 s longer than #46 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "health",
+    "health",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#98 of 99",
+    "Published": "2024-01-10",
+    "Length": "47:58",
+    "Playlist": "Health",
+    "On the episode": "B.J. Martin",
+    "Repeat": "Exactly 1 min 51 s longer than #46 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 98,
+   "date": "2024-01-10",
+   "duration": "47:58",
+   "playlist": "health",
+   "guest": "B.J. Martin",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14270934-being-a-health-advocate",
+   "urlConfirmed": true,
+   "repeatOf": "ep-046",
+   "audio": null
+  },
+  {
+   "id": "ep-099",
+   "kind": "episode",
+   "title": "Being A Podcast Host",
+   "summary": "A podcast host, author, actress and poet on what hosting her own show has taught her.",
+   "body": "A podcast host, author, actress and poet on what hosting her own show has taught her.\n\nExactly 1 min 51 s longer than #41 — almost certainly the same recording with a new intro or outro. On YouTube, publish one copy and leave this one out of the playlists.",
+   "tags": [
+    "episode",
+    "career",
+    "career & purpose",
+    "repeat"
+   ],
+   "details": {
+    "Episode": "#99 of 99",
+    "Published": "2024-01-17",
+    "Length": "44:43",
+    "Playlist": "Career & Purpose",
+    "On the episode": "B.J. Martin",
+    "Repeat": "Exactly 1 min 51 s longer than #41 — almost certainly the same recording with a new intro or outro.",
+    "Buzzsprout link": "Direct episode page"
+   },
+   "n": 99,
+   "date": "2024-01-17",
+   "duration": "44:43",
+   "playlist": "career",
+   "guest": "B.J. Martin",
+   "url": "https://www.buzzsprout.com/1891053/episodes/14327001-being-a-podcast-host",
+   "urlConfirmed": true,
+   "repeatOf": "ep-041",
+   "audio": null
+  },
+  {
+   "id": "situation",
+   "kind": "guide",
+   "section": "start",
+   "title": "Where the podcast stands today",
+   "summary": "Real Choices…Real Life has 99 published episodes and a YouTube channel that nobody is tending.",
+   "body": "Real Choices…Real Life is the podcast of Abundance Legacy (ABL), the international nonprofit founded by Nathaniel X. Ross. It ran weekly on Buzzsprout from January 5, 2022 to January 17, 2024 and is listed on Apple Podcasts, Spotify, Amazon Music and through its RSS feed.\n\nNo new episode has come out since January 2024. The catalog is finished, recorded and paid for, so the job now is not making content. It is getting existing content found.\n\nDuring Ms. Lee’s working session in September 2026, the ABL YouTube channel showed about 67 videos and 8 subscribers, and a playlist that displayed as a grey, broken tile. Those numbers were read off the screen in the session; check them in YouTube Studio before quoting them to anyone.",
+   "tags": [
+    "overview",
+    "buzzsprout",
+    "youtube",
+    "status",
+    "abl",
+    "podcast"
+   ],
+   "details": {
+    "Published episodes": "99",
+    "First episode": "Jan 5, 2022",
+    "Last episode": "Jan 17, 2024",
+    "Hosted on": "Buzzsprout",
+    "Listed on": "Apple Podcasts, Spotify, Amazon Music, RSS",
+    "YouTube (as seen Sept 2026)": "About 67 videos, 8 subscribers — to be confirmed"
+   }
+  },
+  {
+   "id": "catalog",
+   "kind": "guide",
+   "section": "start",
+   "title": "99 episodes, 79 distinct shows",
+   "summary": "About one in five published episodes repeats an earlier recording. Upload each recording once.",
+   "body": "Comparing titles and exact running times across all 99 episodes shows 79 distinct titles. Of the 20 repeated ones, 7 are exactly the same length as the original (a straight re-air) and 10 are exactly 1 minute 51 seconds longer (almost certainly the same recording with a new intro or outro). The last 3 share a title with an earlier episode but differ by a less regular amount, so someone needs to listen to the opening to be sure.\n\nThat matters for YouTube: uploading all 99 would put the same conversation on the channel twice, which splits views and looks careless. Upload one copy of each recording, preferably the later one if its extra 1:51 is a better intro.\n\nThe full catalog runs about 72.7 hours; the distinct recordings about 57.6 hours.",
+   "tags": [
+    "catalog",
+    "duplicates",
+    "re-air",
+    "repeat",
+    "episodes",
+    "99"
+   ],
+   "details": {
+    "Published": "99",
+    "Distinct titles": "79",
+    "Straight re-airs": "7",
+    "Same recording + 1:51": "10",
+    "Need a listen": "3",
+    "Total running time": "72.7 hours",
+    "Distinct running time": "57.6 hours"
+   }
+  },
+  {
+   "id": "listeners",
+   "kind": "guide",
+   "section": "start",
+   "title": "What listeners chose (April 2023 snapshot)",
+   "summary": "Per episode, Holistic Living and Finances drew the most downloads, even though Relationships had the most episodes.",
+   "body": "The show’s own production file from April 2023 tracked downloads by theme. It is a snapshot of 47 sessions, not a current number, but it is the only audience data in hand.\n\nFamily and Relationships had the most episodes and the most downloads in total. Per episode, though, Holistic Living (about 25) and Finances (about 23) did best, then Spirituality (about 19), Career (about 18), Health (16) and Relationships (about 12). Almost all downloads came from the United States, with a handful from the UK, Canada, the Dominican Republic, Pakistan, Belgium and Jamaica.\n\nSo lead the YouTube relaunch with money and whole-life episodes, and treat Relationships as a deep library rather than the front door. Get fresh numbers from Buzzsprout’s Stats page before deciding anything big.",
+   "tags": [
+    "analytics",
+    "downloads",
+    "data",
+    "audience",
+    "stats",
+    "metrics"
+   ],
+   "details": {
+    "Source": "Production schedule & metrics file, Apr 11 2023",
+    "Sessions counted": "47",
+    "Downloads counted": "799",
+    "Best per episode": "Holistic Living ~25, Finances ~23",
+    "Most in total": "Family & Relationships, 220",
+    "Listeners": "Mostly USA"
+   }
+  },
+  {
+   "id": "playlists",
+   "kind": "guide",
+   "section": "youtube",
+   "title": "Eight playlists for YouTube",
+   "summary": "Sort the 79 recordings by theme so viewers can binge a topic instead of scrolling a pile.",
+   "body": "A channel with every video in one list gives a viewer no reason to watch the next one. Playlists named for what people are looking for keep them watching, and they tell YouTube what each video is about.\n\nThe show already named its themes, so the playlists follow them, plus two more: one for the holiday and year-end episodes, which suit giving season, and one for the episodes about Abundance Legacy itself, which every other video should point to at the end.\n\nThe old production file filed a few episodes oddly (a chiropractor episode under Career, for example). The sorting here goes by what each episode is actually about.",
+   "tags": [
+    "playlists",
+    "youtube",
+    "categories",
+    "organize",
+    "sort",
+    "buckets"
+   ],
+   "details": {
+    "Holistic Living": "5 recordings",
+    "Spirituality": "7 recordings",
+    "Health": "11 recordings",
+    "Family & Relationships": "20 recordings",
+    "Career & Purpose": "14 recordings",
+    "Finances": "11 recordings",
+    "Holidays & Year-End": "8 recordings",
+    "About Abundance Legacy": "3 recordings"
+   },
+   "playlists": [
+    {
+     "key": "holistic",
+     "name": "Holistic Living",
+     "about": "The whole-life episodes: how the areas of life connect, community, education and loss.",
+     "count": 5
+    },
+    {
+     "key": "spirituality",
+     "name": "Spirituality",
+     "about": "Faith, energy, intuition and caring for the soul.",
+     "count": 7
+    },
+    {
+     "key": "health",
+     "name": "Health",
+     "about": "Sleep, food, movement, risky substances and speaking up for your own care.",
+     "count": 11
+    },
+    {
+     "key": "relationships",
+     "name": "Family & Relationships",
+     "about": "Dating, marriage, divorce, family and the people closest to you.",
+     "count": 20
+    },
+    {
+     "key": "career",
+     "name": "Career & Purpose",
+     "about": "Work you love, mistakes, mentors, coaching and guest founders.",
+     "count": 14
+    },
+    {
+     "key": "finance",
+     "name": "Finances",
+     "about": "Budgeting, credit, planning, investing and leaving a legacy.",
+     "count": 11
+    },
+    {
+     "key": "seasonal",
+     "name": "Holidays & Year-End",
+     "about": "Thanksgiving, Christmas, Father’s Day and the year-end wraps. Good for giving season.",
+     "count": 8
+    },
+    {
+     "key": "abl",
+     "name": "About Abundance Legacy",
+     "about": "The episodes where the founder explains what Abundance Legacy is and does. The natural end-screen for every other video.",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "id": "channel-cleanup",
+   "kind": "guide",
+   "section": "youtube",
+   "title": "Fix the channel before adding anything",
+   "summary": "Record the “before,” fix the broken playlist, and don’t delete the old videos.",
+   "body": "Start by screen-recording the channel as it looks today and saving the numbers from YouTube Studio’s Analytics tab. That is the “before” that makes the pilot’s results believable.\n\nThe grey playlist tile usually means a playlist whose videos were removed or made private. Open YouTube Studio, go to Content, then Playlists, and either add videos to it or delete that empty playlist.\n\nDon’t delete the 67 existing videos. People may have liked, saved or linked them, and deleting breaks those links. Instead, compare them against the 99-episode list, then either sort them into the new playlists or set true duplicates to Unlisted.\n\nIn Studio, open any video (the pencil icon) to edit its title, description and playlist; the Visibility column switches between Public, Unlisted and Private.",
+   "tags": [
+    "youtube",
+    "studio",
+    "cleanup",
+    "playlist",
+    "delete",
+    "broken",
+    "before and after",
+    "analytics"
+   ],
+   "details": {
+    "First": "Screen-record the channel and save analytics",
+    "Broken tile": "Empty playlist — fill it or delete it",
+    "Old videos": "Keep, sort or set to Unlisted",
+    "Where": "YouTube Studio › Content"
+   }
+  },
+  {
+   "id": "rss-to-youtube",
+   "kind": "guide",
+   "section": "youtube",
+   "title": "Send the audio to YouTube through the RSS feed",
+   "summary": "YouTube can pull every Buzzsprout episode in automatically, as a video with the cover art as the picture.",
+   "body": "This is the fastest way to put all 99 on YouTube, but it brings the repeats with it. The steps below were checked against Buzzsprout’s help pages in September 2026.\n\n1. In Buzzsprout, go to Directories › Email Verification and add the email you use for YouTube, so YouTube can prove the feed is yours.\n2. Turn off Buzzsprout Ads or any dynamic ad insertion — YouTube does not accept inserted ads. Ads read by the hosts inside the audio are fine.\n3. Copy the feed address from Directories › RSS Feed.\n4. In YouTube Studio, click Create, then New Podcast, then Submit RSS feed. Accept the terms and paste the address.\n5. Enter the code YouTube emails to the feed’s address, then choose which episodes to bring in: all, those after a date, or only future ones.\n6. YouTube takes a few days to process and imports everything as Private. When it is done, go to Content › Podcasts and click Publish under Video Count.\n\nTip: publishing brings the repeats too. Set the extra copies to Unlisted before you publish, or add episodes by hand instead.",
+   "tags": [
+    "rss",
+    "buzzsprout",
+    "youtube",
+    "upload",
+    "distribution",
+    "steps",
+    "how to",
+    "feed"
+   ],
+   "details": {
+    "Where it starts": "YouTube Studio › Create › New Podcast",
+    "Needs": "Your email in the RSS feed; no inserted ads",
+    "Looks like": "Cover art as a still picture with the audio",
+    "Arrives as": "Private until you publish",
+    "Checked": "Buzzsprout Help, Sept 2026"
+   },
+   "source": "https://www.buzzsprout.com/help/207-youtube-submission"
+  },
+  {
+   "id": "video-plan",
+   "kind": "guide",
+   "section": "youtube",
+   "title": "If there are video recordings",
+   "summary": "Buzzsprout can now send real video straight to YouTube, but only on its video plan.",
+   "body": "The how-to document in the handover says Buzzsprout cannot send video to YouTube. That was true once; it is out of date now. Buzzsprout’s Audio + Video plan (from $30 a month when checked in September 2026) connects a YouTube channel and publishes video episodes to YouTube, Apple Podcasts and Spotify, while the audio still goes everywhere else.\n\nNobody in the session could say where the original recordings live. Buzzsprout only hosts and distributes; the recording happened somewhere else. Ask the founder what he recorded with and where the files are before paying for a video plan. If only audio exists, the free RSS route above is the right one.",
+   "tags": [
+    "video",
+    "buzzsprout",
+    "plan",
+    "pricing",
+    "recordings",
+    "original files"
+   ],
+   "details": {
+    "Plan": "Buzzsprout Audio + Video",
+    "Price when checked": "From $30/month (Sept 2026)",
+    "Sends to": "YouTube, Apple Podcasts, Spotify",
+    "Open question": "Where the original recordings are kept"
+   },
+   "source": "https://www.buzzsprout.com/features/video-podcasting"
+  },
+  {
+   "id": "ownership",
+   "kind": "guide",
+   "section": "rights",
+   "title": "Ownership, credits and permission",
+   "summary": "Before anything is reused or monetized, get the founder to confirm in writing who owns what.",
+   "body": "ABL produced the show, but guests brought their own words, faces and sometimes their own businesses. Reposting is one thing; cutting clips, selling access or asking for donations around someone’s appearance is another.\n\nGet the founder to confirm, in writing, that ABL owns the recordings and may repost, edit and use them to raise money. For each guest, check whether they signed a release. Where nobody did, send a short, friendly note asking for a yes before their episode is cut into shorts.\n\nEvery description should credit who is on the episode by name and role. Never publish guests’ contact details: the old production file includes private emails and phone numbers, and those stay private.",
+   "tags": [
+    "copyright",
+    "ownership",
+    "credits",
+    "guests",
+    "permission",
+    "release",
+    "consent",
+    "privacy",
+    "legal"
+   ],
+   "details": {
+    "Ask the founder": "Does ABL own all recordings outright?",
+    "Guests": "Signed release? If not, ask before clipping",
+    "Credit": "Name and role in every description",
+    "Never publish": "Guest emails or phone numbers"
+   }
+  },
+  {
+   "id": "license",
+   "kind": "guide",
+   "section": "rights",
+   "title": "YouTube’s two license choices",
+   "summary": "Keep the Standard YouTube License. YouTube only offers that or CC BY, which lets anyone reuse the video.",
+   "body": "In the session Ms. Lee remembered a license setting that let people share but not edit or earn from videos. That setting was on Vimeo, not YouTube. YouTube offers two choices only: the Standard YouTube License, which is the default, and Creative Commons Attribution (CC BY), which lets anyone reuse and edit the video as long as they credit you.\n\nFor ABL, keep Standard. Add a line to every description saying the content belongs to Abundance Legacy and may not be re-uploaded or edited without permission. It won’t stop a determined copier, but it states the terms plainly.\n\nYouTube also checks each upload against its copyright-matching system, mostly for music, and warns you if it finds a match.",
+   "tags": [
+    "license",
+    "creative commons",
+    "copyright",
+    "youtube",
+    "vimeo",
+    "standard license"
+   ],
+   "details": {
+    "Default": "Standard YouTube License — keep it",
+    "Only alternative": "Creative Commons Attribution (CC BY)",
+    "Not on YouTube": "No-commercial / no-edit licenses",
+    "Checked": "YouTube Help, Sept 2026"
+   },
+   "source": "https://support.google.com/youtube/answer/2797468"
+  },
+  {
+   "id": "descriptions",
+   "kind": "guide",
+   "section": "youtube",
+   "title": "Titles, descriptions and thumbnails",
+   "summary": "Most of the 67 videos have no real description. Each needs a clear title, who’s on it, and one next step.",
+   "body": "People search for problems, not show names, so lead with the problem: “How to rebuild your credit” finds more people than “Understanding Your Credit | RCRL.”\n\nA description that works: two sentences on what the viewer will learn; who is speaking, with name and role; one link to the free course or ABL’s giving page; the rights line; three to five hashtags people actually follow, such as #advocacy, #impact and #change.\n\nThumbnails: one face, three or four large words, and the playlist’s color, so the channel looks like one series. Write every description in fresh words rather than pasting the old Buzzsprout text.\n\nEditing a title or description does not reset a video’s history. It won’t make an old video count as new, but a clearer title and thumbnail can lift how often YouTube shows it.",
+   "tags": [
+    "description",
+    "title",
+    "thumbnail",
+    "seo",
+    "hashtags",
+    "keywords",
+    "metadata"
+   ],
+   "details": {
+    "Title": "Lead with the viewer’s problem",
+    "Description": "What you’ll learn · who’s on it · one link · rights line · hashtags",
+    "Thumbnail": "One face, 3–4 big words, playlist color",
+    "Hashtags": "#advocacy #impact #change"
+   }
+  },
+  {
+   "id": "pilot",
+   "kind": "guide",
+   "section": "plan",
+   "title": "The five-episode pilot",
+   "summary": "Do five episodes properly first, measure them, then show the founder the before and after.",
+   "body": "Five recordings are already in ABL’s own storage: Holistic Living, Know Your Numbers, Finance 2023, Being a Health Advocate and Year End Wrap Part Two. They cover the two best-performing themes (whole-life and money), a guest episode and a year-end episode that fits giving season.\n\nFor each one: a new problem-first title, a fresh description with credits and one link, a thumbnail, the right playlist, and two or three shorts. Then leave them for a week and compare views, watch time and new subscribers with the “before” you recorded.\n\nThe file names don’t say which copy of a repeated episode they came from; play the first minute to confirm before titling.",
+   "tags": [
+    "pilot",
+    "five",
+    "proof",
+    "test",
+    "first steps",
+    "before and after"
+   ],
+   "details": {
+    "Episodes": "Holistic Living · Know Your Numbers · Finance 2023 · Being a Health Advocate · Year End Wrap Part Two",
+    "Per episode": "Title, description, thumbnail, playlist, 2–3 shorts",
+    "Measure after": "One week",
+    "Compare": "Views, watch time, subscribers"
+   }
+  },
+  {
+   "id": "shorts",
+   "kind": "guide",
+   "section": "plan",
+   "title": "A daily rhythm: long episodes plus shorts",
+   "summary": "Three full episodes a day, each cut into shorts, clears the catalog in about four weeks.",
+   "body": "Every episode runs 30 minutes to an hour. That is right for people who already care, but strangers find a channel through short clips. Each long episode should give two or three shorts: a strong opinion, a practical tip or a moment of emotion, each under a minute, with large captions and the ABL name on screen.\n\nA pace one person can keep: prepare three long episodes a day and their shorts, schedule them rather than posting live, and keep a steady time each day. Ms. Lee’s target in the session was five to ten a day; start at three and raise it once the routine is quick.\n\nAt three a day, the 79 distinct recordings take about 27 working days. YouTube Studio can schedule uploads for a set time, so the work can be done in batches.",
+   "tags": [
+    "shorts",
+    "clips",
+    "schedule",
+    "daily",
+    "cadence",
+    "rhythm",
+    "posting",
+    "workload"
+   ],
+   "details": {
+    "Per day": "3 long episodes + their shorts",
+    "Shorts per episode": "2–3, under a minute",
+    "Whole catalog": "About 27 working days at 3/day",
+    "Stretch target": "5–10 a day once it’s routine"
+   }
+  },
+  {
+   "id": "monetization",
+   "kind": "guide",
+   "section": "money",
+   "title": "What YouTube will and won’t pay",
+   "summary": "Ad money is a long way off, and the bar doubles in February 2027. Plan to raise money through ABL instead.",
+   "body": "YouTube’s first earning tier needs 500 subscribers, three public uploads in the last 90 days, and either 3,000 watch hours in a year or 3 million Shorts views in 90 days. It unlocks memberships, Super Thanks and similar tips, not ad money.\n\nAd money needs 1,000 subscribers and 4,000 watch hours in a year (or 10 million Shorts views in 90 days). From February 1, 2027, new applicants will need 8,000 watch hours or 20 million Shorts views instead.\n\nWith 8 subscribers, that is years away. The channel’s real job is to introduce people to ABL and lead them to the course and to giving. Treat any YouTube money as a bonus.",
+   "tags": [
+    "monetization",
+    "youtube partner program",
+    "money",
+    "ads",
+    "revenue",
+    "watch hours",
+    "subscribers",
+    "earn"
+   ],
+   "details": {
+    "First tier": "500 subs + 3 uploads/90 days + 3,000 hrs or 3M Shorts views",
+    "Ad revenue now": "1,000 subs + 4,000 hrs or 10M Shorts views",
+    "From Feb 1, 2027": "1,000 subs + 8,000 hrs or 20M Shorts views",
+    "Checked": "YouTube Help & Blog, Sept 2026"
+   },
+   "source": "https://support.google.com/youtube/answer/12843009"
+  },
+  {
+   "id": "listener-support",
+   "kind": "guide",
+   "section": "money",
+   "title": "Monthly support through Buzzsprout",
+   "summary": "Buzzsprout can take monthly gifts from listeners and keeps 15%. It needs a paid plan.",
+   "body": "Buzzsprout has two ways to take money: Listener Support (monthly contributions) and Subscriptions (paid extras such as bonus or early episodes). Both need a paid Buzzsprout plan. Buzzsprout keeps 15% and ABL keeps 85%, paid into a Buzzsprout wallet that can be spent on the plan or cashed out through PayPal.\n\nThe founder has said he wants the episodes to stay free, so Listener Support fits better than paid extras. Before switching it on, read the terms and decide who at ABL handles the PayPal account and the reporting that comes with taking money for a nonprofit.\n\nThe supporter list can be exported as a spreadsheet, which is how those names reach ABL’s own newsletter.",
+   "tags": [
+    "buzzsprout",
+    "donations",
+    "listener support",
+    "subscriptions",
+    "fees",
+    "paypal",
+    "money"
+   ],
+   "details": {
+    "Options": "Listener Support · Subscriptions",
+    "Needs": "A paid Buzzsprout plan",
+    "Buzzsprout keeps": "15%",
+    "Payout": "Buzzsprout wallet → PayPal",
+    "Checked": "Buzzsprout Help, Sept 2026"
+   },
+   "source": "https://www.buzzsprout.com/help/184-faq-podcasters"
+  },
+  {
+   "id": "funnel",
+   "kind": "guide",
+   "section": "money",
+   "title": "From a video to a gift",
+   "summary": "Every video should point to one place: the free course, which ends with an invitation to give.",
+   "body": "The founder’s course is free. At the end he asks people who found it useful to donate. That is the funnel: a short clip catches someone, a full episode earns trust, one link takes them to the course sign-up, and the course ends with the ask.\n\nKeep it to one link per video, always the same one, so results are easy to measure. The “About Abundance Legacy” episodes become the end-screen for every other video, so a viewer who liked a money episode learns who made it.\n\nWhat to watch weekly: clicks on the link (YouTube Studio shows them), course sign-ups, and gifts. If sign-ups rise, the channel is working even before the numbers look big.",
+   "tags": [
+    "funnel",
+    "course",
+    "donation",
+    "call to action",
+    "cta",
+    "giving",
+    "fundraising",
+    "nonprofit"
+   ],
+   "details": {
+    "Step 1": "A short catches attention",
+    "Step 2": "The full episode builds trust",
+    "Step 3": "One link to the free course",
+    "Step 4": "The course ends with an invitation to give",
+    "Track weekly": "Link clicks · sign-ups · gifts"
+   }
+  },
+  {
+   "id": "giving-season",
+   "kind": "guide",
+   "section": "money",
+   "title": "Giving season",
+   "summary": "Nonprofits raise much of their year between Thanksgiving and December 31. The pilot should be live before then.",
+   "body": "GivingTuesday 2026 falls on December 1, the Tuesday after Thanksgiving. The show already has Thanksgiving, Christmas and year-end episodes that suit this stretch.\n\nA simple plan: have the pilot live and the first two playlists filled by mid-November; re-release the Thanksgiving and year-end episodes with fresh titles in the weeks before; on GivingTuesday, post one short where the founder says in his own words what a gift makes possible, linking to ABL’s giving page.\n\nKeep claims honest. Only describe impact ABL can show.",
+   "tags": [
+    "giving season",
+    "givingtuesday",
+    "christmas",
+    "thanksgiving",
+    "year end",
+    "donations",
+    "calendar"
+   ],
+   "details": {
+    "GivingTuesday 2026": "December 1",
+    "Pilot live by": "Mid-November",
+    "Episodes to re-release": "Thanksgiving, Christmas, Year-End Wrap"
+   }
+  },
+  {
+   "id": "audience",
+   "kind": "guide",
+   "section": "money",
+   "title": "Keep the people who already came",
+   "summary": "The few people already subscribed are the easiest to reach. Turn them into a list ABL owns.",
+   "body": "Platforms can change their rules overnight; an email list belongs to ABL. Gather the people who already follow the show: Buzzsprout supporter exports, the YouTube subscribers, and the Instagram and Facebook followers.\n\nSend a short, regular newsletter: the new episode or playlist, one line about what ABL did that month, and the course link. Reminding people what the organization does is how giving starts.\n\nMs. Lee’s own experience in the session: posting steadily with hashtags people follow (advocacy, impact, change) brought opportunities to her within weeks. Add personal outreach — about ten friendly messages a day to people who comment or follow — and it compounds.",
+   "tags": [
+    "audience",
+    "newsletter",
+    "email",
+    "subscribers",
+    "social",
+    "instagram",
+    "facebook",
+    "dms",
+    "engagement",
+    "hashtags"
+   ],
+   "details": {
+    "Own the list": "Email newsletter",
+    "Sources": "Buzzsprout export · YouTube · Instagram · Facebook",
+    "Outreach": "~10 personal messages a day",
+    "Hashtags": "#advocacy #impact #change"
+   }
+  },
+  {
+   "id": "hosting",
+   "kind": "guide",
+   "section": "plan",
+   "title": "Hosting the audio in ABL’s own storage",
+   "summary": "Keeping copies in ABL’s own storage gives control and a backup, but public links can be downloaded by anyone.",
+   "body": "The five pilot episodes already sit in ABL’s Supabase storage. Holding the full set there means ABL keeps a copy that does not depend on any one platform, and the files can feed ABL’s own site or course.\n\nTwo cautions. A public storage bucket means anyone with the link can download the file — the same as Buzzsprout’s download button today, but worth knowing. And storage and bandwidth cost money past a plan’s free limits, so check the Supabase plan before moving 99 files there.\n\nMoving files does not take them off Buzzsprout; Buzzsprout stays the source for podcast apps.",
+   "tags": [
+    "supabase",
+    "hosting",
+    "storage",
+    "backup",
+    "control",
+    "mp3",
+    "files"
+   ],
+   "details": {
+    "Now": "5 pilot files in ABL’s Supabase storage",
+    "Why": "Control and a backup",
+    "Caution": "Public links are downloadable",
+    "Check first": "Storage & bandwidth limits of the plan"
+   }
+  },
+  {
+   "id": "pricing",
+   "kind": "guide",
+   "section": "plan",
+   "title": "Pricing Ms. Lee’s work",
+   "summary": "Price in batches of five, lead with the pilot as proof, and agree what “done” means per episode.",
+   "body": "Putting 99 videos online is a different job from relaunching them. The work that earns a fee is the relaunch: sorting, retitling, rewriting descriptions, thumbnails, shorts and measuring results.\n\nOffer it as batches of five episodes at a set price, with the pilot as the first batch. Write down exactly what each batch includes, so the founder sees what he is paying for and can stop or continue after any batch. Ms. Lee sets the price.\n\nShow progress in the founder’s own terms: a screen recording before, the same view after, and the analytics side by side.",
+   "tags": [
+    "pricing",
+    "fees",
+    "proposal",
+    "scope",
+    "consulting",
+    "batches",
+    "payment"
+   ],
+   "details": {
+    "Unit": "Batch of five episodes",
+    "First batch": "The pilot",
+    "Each batch includes": "Titles, descriptions, thumbnails, playlists, shorts, a results note",
+    "Price": "Set by Ms. Lee"
+   }
+  },
+  {
+   "id": "ms-lee",
+   "kind": "guide",
+   "section": "start",
+   "title": "How Ms. Lee works",
+   "summary": "Storytelling first, short sprints, quick replies and real relationships instead of paid ads.",
+   "body": "Ms. Lee is a global consultant whose background runs from finance and pharmaceuticals in South Africa to consulting across continents. Her own studio’s plan describes the approach this agent follows: tell the story before selling anything, work in short sprints of two to six weeks, reply within a day or two, and build through gatherings, partnerships and steady posting rather than paid ads.\n\nFor ABL that means: lead with the founder’s mission and the people on the show, prove results on a small batch before asking for more, and keep every step measurable.",
+   "tags": [
+    "ms lee",
+    "consultant",
+    "approach",
+    "method",
+    "storytelling",
+    "sprint"
+   ],
+   "details": {
+    "Method": "Storytelling first",
+    "Work in": "2–6 week sprints",
+    "Replies": "Within 24–48 hours",
+    "Growth": "Relationships and steady posting, not paid ads"
+   }
+  },
+  {
+   "id": "questions",
+   "kind": "guide",
+   "section": "plan",
+   "title": "Questions for the founder",
+   "summary": "Seven answers unlock the rest of the plan.",
+   "body": "1. Does ABL own every recording outright, and may it edit, clip and raise money around them?\n2. Did guests sign releases? If not, may we ask them now?\n3. What did you record with, and where are the original files, especially any video?\n4. Is there written agreement between you and whoever managed the channel before?\n5. Which link should every video point to: the course sign-up or the giving page?\n6. Who handles donations and the reporting that comes with them?\n7. Which of the three episodes that share a title but not a length (Holistic Living, Is Your Career Your Passion?, Finance 2023) are new recordings?",
+   "tags": [
+    "questions",
+    "founder",
+    "nate",
+    "open questions",
+    "next meeting"
+   ],
+   "details": {
+    "Rights": "Q1–Q2",
+    "Files": "Q3–Q4",
+    "Funnel": "Q5–Q6",
+    "Catalog": "Q7"
+   }
+  },
+  {
+   "id": "rules",
+   "kind": "guide",
+   "section": "rights",
+   "title": "Rules for everything published",
+   "summary": "Credit people, protect their privacy, label AI edits and never invent results.",
+   "body": "Credit everyone by name and role. Never publish guests’ personal contact details. Don’t invent testimonials, numbers or quotes; if a result isn’t measured, don’t claim it. When a video uses AI to change someone’s face or voice, YouTube asks creators to disclose realistic altered content, so tick that box. Keep the Standard license. Don’t delete old videos without checking what links to them. And treat second-hand claims about what TikTok or Facebook pay creators as rumours until checked.",
+   "tags": [
+    "rules",
+    "privacy",
+    "ai",
+    "disclosure",
+    "honesty",
+    "credits",
+    "policy"
+   ],
+   "details": {
+    "Credit": "Name and role, every time",
+    "Privacy": "No guest contact details",
+    "Honesty": "No invented numbers or quotes",
+    "AI edits": "Use YouTube’s altered-content disclosure"
+   }
+  }
+ ]
+}
