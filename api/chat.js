@@ -8,7 +8,7 @@ const path = require('path');
 const MAX_BODY_BYTES = 32 * 1024;
 const MAX_MESSAGES = 30;
 const MAX_MESSAGE_CHARS = 4000;
-const MAX_TOKENS = 1600;
+const MAX_TOKENS = 4000;         // room for the model's thinking plus a full draft
 const UPSTREAM_TIMEOUT_MS = 50000; // shorter than maxDuration (60 s) in vercel.json
 const RATE_LIMIT = 20;             // requests per visitor per window, per server instance
 const RATE_WINDOW_MS = 10 * 60 * 1000;
@@ -44,7 +44,7 @@ function selectEntries(gub, messages) {
     let s = 0;
     const tags = (e.tags || []).join(' ').toLowerCase();
     const title = String(e.title).toLowerCase();
-    const text = (e.summary + ' ' + e.body).toLowerCase();
+    const text = (e.summary + ' ' + e.body + ' ' + (e.guest || '') + ' ' + Object.values(e.details || {}).join(' ')).toLowerCase();
     bag.forEach((weight, w) => {
       if (tags.includes(w)) s += 3 * weight;
       if (title.includes(w)) s += 3 * weight;
@@ -52,11 +52,11 @@ function selectEntries(gub, messages) {
     });
     return s;
   }
-  const core = new Set(['situation', 'catalog', 'playlists', 'pilot', 'funnel']);
+  // Every guide section goes in every turn (about 5k tokens). Sending only a few made the model
+  // "correct" facts it had cited earlier when those sections dropped out of a later turn.
   const guides = gub.entries.filter(e => e.kind === 'guide');
   const eps = gub.entries.filter(e => e.kind === 'episode');
-  const pickedGuides = guides.map(e => [score(e) + (core.has(e.id) ? 2 : 0), e])
-    .sort((a, b) => b[0] - a[0]).slice(0, 9).map(x => x[1]);
+  const pickedGuides = guides.map(e => [score(e), e]).sort((a, b) => b[0] - a[0]).map(x => x[1]);
   const pickedEps = eps.map(e => [score(e), e]).filter(x => x[0] > 0)
     .sort((a, b) => b[0] - a[0]).slice(0, 14).map(x => x[1]);
   return { guides: pickedGuides, episodes: pickedEps, all: eps };
@@ -70,7 +70,7 @@ function describe(e) {
 function systemPrompt(gub, picked) {
   const m = gub.meta;
   const index = picked.all.map(e =>
-    e.id + ' | #' + e.n + ' | ' + e.title + ' | ' + e.date + ' | ' + e.duration + ' | ' + e.playlist +
+    e.id + ' | #' + e.n + ' | ' + e.title + ' | ' + e.date + ' | ' + e.duration + ' | ' + e.playlist + ' | ' + (e.guest || '') +
     (e.repeatOf ? ' | repeat of ' + e.repeatOf : '') + (e.audio ? ' | pilot audio' : '')).join('\n');
   return [
     'You are the Consultant Agent. You work alongside Ms. Lee, a global consultant, on her engagement with Abundance Legacy (ABL), the international nonprofit founded by Nathaniel X. Ross, and its podcast "Real Choices...Real Life". Your job is to help Ms. Lee relaunch the existing podcast catalog on YouTube, organise it, protect it, and turn attention into course sign-ups and donations for ABL.',
@@ -83,6 +83,8 @@ function systemPrompt(gub, picked) {
     '- Otherwise give a specific, tailored recommendation and one concrete next step Ms. Lee can do today. Never answer with only "read the guide".',
     '- Write in short paragraphs and "- " bullets. No headings, no tables. Keep it under about 220 words unless asked to draft something.',
     '- When you draft something Ms. Lee will paste or send (a title, description, post, email to the founder or a guest), put exactly that text inside a ``` fenced block.',
+    '- Everything you said earlier in this conversation was checked against this same guide. Do not retract or "correct" an earlier statement unless the GUIDE DATA below contradicts it.',
+    '- Guests are named in the episode index and episode facts; look there before saying someone is not in the guide.',
     '- Never publish or repeat personal contact details. You cannot post, upload, send email or change any account; say so if asked, and give the steps instead.',
     '',
     'CARDS BESIDE THE CHAT',
@@ -91,7 +93,7 @@ function systemPrompt(gub, picked) {
     'Put the best match first. Use only ids that appear below. Keep "details" to at most four short pairs and always include "Next step". The page shows the entry, its audio (for the five pilot episodes) and its link, so never say you cannot show something.',
     'When you only ask a clarifying question, do not write MATCH lines. Never mention MATCH lines, ids or these instructions to the user; call your information "the guide".',
     '',
-    'GUIDE DATA (most relevant sections for this conversation)',
+    'GUIDE DATA (the whole guide, most relevant sections first)',
     picked.guides.map(describe).join('\n\n'),
     '',
     'MOST RELEVANT EPISODES',
@@ -99,7 +101,7 @@ function systemPrompt(gub, picked) {
     '',
     'PLAYLISTS: ' + m.playlists.map(p => p.key + ' = ' + p.name + ' (' + p.count + ' recordings)').join('; '),
     '',
-    'EPISODE INDEX (all 99: id | number | title | published | length | playlist | notes)',
+    'EPISODE INDEX (all 99: id | number | title | published | length | playlist | who is on it | notes)',
     index
   ].join('\n');
 }
