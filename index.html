@@ -63,9 +63,16 @@
       <div class="chat-head">
         <h2>Consultant</h2>
         <p class="sub">Works from the relaunch guide</p>
-        <button class="icon" id="resetBtn" type="button" aria-label="Start a new conversation" title="Start a new conversation">
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9"/><path d="M13.5 2.5v3h-3"/></svg>
-        </button>
+        <div class="head-icons">
+          <button class="icon" id="resetBtn" type="button" aria-label="Start a new conversation" title="Start a new conversation">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9"/><path d="M13.5 2.5v3h-3"/></svg>
+          </button>
+          <button class="icon expand-btn" id="expandBtn" type="button" aria-pressed="false" aria-label="Open the chat full page" title="Open the chat full page">
+            <svg class="i-open" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10"/></svg>
+            <svg class="i-close" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2.5V6H2.5M13.5 6H10V2.5M10 13.5V10h3.5M2.5 10H6v3.5"/></svg>
+            <span class="expand-label">Full page</span>
+          </button>
+        </div>
       </div>
       <span class="count-chip" id="countChip"><span class="dot" aria-hidden="true"></span><span id="countLabel">No messages yet</span></span>
       <div class="messages" id="messages" role="log" aria-live="polite" aria-label="Conversation"></div>
