@@ -214,6 +214,21 @@
       })
       .then(function () { busy = false; sendBtn.disabled = false; });
   }
+  /* full-page reading view for the chat */
+  var chatCard = document.querySelector('.chat'), expandBtn = $('expandBtn');
+  function setExpanded(on) {
+    chatCard.classList.toggle('expanded', on);
+    document.documentElement.classList.toggle('chat-open', on);
+    expandBtn.setAttribute('aria-pressed', String(on));
+    expandBtn.setAttribute('aria-label', on ? 'Close full page chat' : 'Open the chat full page');
+    expandBtn.title = on ? 'Close full page' : 'Open the chat full page';
+    expandBtn.querySelector('.expand-label').textContent = on ? 'Close' : 'Full page';
+    box.scrollTop = box.scrollHeight;
+    input.focus({ preventScroll: true });
+  }
+  expandBtn.addEventListener('click', function () { setExpanded(!chatCard.classList.contains('expanded')); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && chatCard.classList.contains('expanded')) setExpanded(false); });
+
   input.addEventListener('input', grow);
   input.addEventListener('keydown', function (e) { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
   sendBtn.addEventListener('click', send);
