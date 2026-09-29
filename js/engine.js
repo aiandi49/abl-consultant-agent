@@ -45,11 +45,15 @@
 
   /* ───────── light formatting, built node by node ───────── */
   function inline(parent, text) {
-    String(text).split(/(\*\*[^*\n]+\*\*|\*[^*\s][^*\n]*\*|https:\/\/[^\s<>()"]+[^\s<>()".,;:!?])/).forEach(function (part) {
+    String(text).split(/(\*\*[^*\n]+\*\*|\*[^*\s][^*\n]*\*|https:\/\/[^\s<>()"]+[^\s<>()".,;:!?]|\/(?:downloads\/[\w.-]+\.xlsx|cheat-sheet\.html|guide\.html(?:#[\w-]+)?))/).forEach(function (part) {
       if (!part) return;
       if (/^\*\*[^*]+\*\*$/.test(part)) parent.appendChild(el('strong', null, part.slice(2, -2)));
       else if (/^\*[^*]+\*$/.test(part)) parent.appendChild(el('em', null, part.slice(1, -1)));
       else if (/^https:\/\//.test(part)) { var a = el('a', null, part); a.href = part; a.target = '_blank'; a.rel = 'noopener noreferrer'; parent.appendChild(a); }
+      else if (/^\/(downloads\/[\w.-]+\.xlsx|cheat-sheet\.html|guide\.html(#[\w-]+)?)$/.test(part)) {
+        var l = el('a', null, /\.xlsx$/.test(part) ? 'Download the Excel workbook' : (part.indexOf('cheat') > -1 ? 'Open the cheat sheet' : 'Open the guide'));
+        l.href = part; if (/\.xlsx$/.test(part)) l.setAttribute('download', ''); parent.appendChild(l);
+      }
       else parent.appendChild(document.createTextNode(part));
     });
   }
@@ -189,16 +193,38 @@
     var wait = el('div', 'msg assistant thinking'); wait.appendChild(el('span', 'spin')); wait.appendChild(el('span', null, 'Reading the guide\u2026'));
     box.appendChild(wait); box.scrollTop = box.scrollHeight;
     var payload = state.thread.slice(-30).map(function (m) { return { role: m.role, content: m.content }; });
+    var live = null, raw = '';
+    function paintLive() {
+      // Hide MATCH lines (and a half-arrived "MATCH" at the end) while the answer streams in.
+      var visible = splitReply(raw.replace(/\u200b/g, '')).body.replace(/\n\s*M(A(T(C(H)?)?)?)?\s*$/i, '');
+      if (!visible.trim()) return;
+      if (!live) { wait.remove(); live = el('div', 'msg assistant'); box.appendChild(live); }
+      live.textContent = ''; renderText(live, visible); box.scrollTop = box.scrollHeight;
+    }
     fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: payload }) })
       .then(function (r) {
-        return r.text().then(function (t) {
-          var j = null; try { j = JSON.parse(t); } catch (e) {}
-          if (!r.ok || !j || typeof j.text !== 'string') throw new Error(j && typeof j.error === 'string' ? j.error : 'The consultant could not answer (status ' + r.status + ').');
-          return j.text;
-        });
+        if (!r.ok) {
+          return r.text().then(function (t) {
+            var j = null; try { j = JSON.parse(t); } catch (e) {}
+            if (j && typeof j.error === 'string') throw new Error(j.error);
+            if (r.status === 429) throw new Error('Too many messages from this connection in a short time. Wait a few minutes, then try again.');
+            throw new Error('The consultant could not answer just now (status ' + r.status + ').');
+          });
+        }
+        if (!r.body || !r.body.getReader) return r.text().then(function (t) { raw = t; });
+        var reader = r.body.getReader(), dec = new TextDecoder();
+        function pump() {
+          return reader.read().then(function (x) {
+            if (x.done) { raw += dec.decode(); return; }
+            raw += dec.decode(x.value, { stream: true }); paintLive(); return pump();
+          });
+        }
+        return pump();
       })
-      .then(function (reply) {
-        wait.remove();
+      .then(function () {
+        var reply = raw.replace(/\u200b/g, '');
+        if (reply.indexOf('[[STREAM_ERROR]]') > -1 || !reply.trim()) throw new Error('The consultant stopped partway through its answer.');
+        if (live) live.remove(); wait.remove();
         var p = splitReply(reply);
         state.thread.push({ role: 'assistant', content: reply, shown: p.body });
         if (p.matches.length) { state.matches = p.matches; state.selected = p.matches[0].id; }
@@ -206,11 +232,13 @@
         bubble('assistant', p.body || 'Here\u2019s what fits best \u2014 see the cards.'); countLabel(); renderCards();
       })
       .catch(function (err) {
-        wait.remove(); state.thread.pop(); save(); countLabel();
+        wait.remove(); if (live) live.remove();
+        state.thread.pop(); save(); countLabel();
         input.value = text; grow(); chip('error');
-        bubble('assistant', location.protocol === 'file:'
-          ? 'The consultant needs this site\u2019s server to answer, and a page opened straight from a computer doesn\u2019t have one. Once the project is deployed on Vercel with its key set, it works. Your message is back in the box.'
-          : String(err && err.message || 'The consultant could not answer.') + ' Your message is back in the box \u2014 press Send to try again.', 'error');
+        var msg = String(err && err.message || '');
+        if (location.protocol === 'file:') msg = 'The consultant needs this site\u2019s server to answer, and a page opened straight from a computer doesn\u2019t have one.';
+        else if (err instanceof TypeError || /fetch|network|load failed/i.test(msg)) msg = 'The connection dropped before the answer arrived. This can happen on a phone if you switch apps or the signal changes.';
+        bubble('assistant', msg + ' Your message is back in the box \u2014 press Send to try again.', 'error');
       })
       .then(function () { busy = false; sendBtn.disabled = false; });
   }
