@@ -66,10 +66,10 @@ html[data-theme="light"] .stage{background-color:#e7e8fb;
 @supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
   .topbar{background:var(--bar-glass); -webkit-backdrop-filter:blur(.875rem); backdrop-filter:blur(.875rem);}
 }
-.nav{display:flex; align-items:center; justify-content:space-between; gap:.75rem; width:100%; max-width:48rem; margin:0 auto; padding:.75rem 1rem;}
+.nav{display:flex; align-items:center; justify-content:space-between; gap:.75rem; width:100%; max-width:60rem; margin:0 auto; padding:.75rem 1rem;}
 .brand{display:inline-flex; align-items:center; gap:.625rem; min-width:0; text-decoration:none;}
 .brand-mark{width:1.125rem; height:1.125rem; border-radius:.375rem; flex-shrink:0; background:linear-gradient(135deg, var(--indigo), var(--purple) 60%, var(--pink)); box-shadow:0 0 .875rem rgba(168,85,247,.6);}
-.brand-text{font-family:var(--head); font-weight:700; font-size:1.1875rem; line-height:1.15; min-width:0;}
+.brand-text{font-family:var(--head); font-weight:700; font-size:1.1875rem; line-height:1.15; min-width:0; white-space:nowrap;}
 .brand-text small{display:block; font-family:var(--sans); font-weight:600; font-size:.8125rem; color:var(--purple-soft);}
 html[data-theme="light"] .brand-text small{color:#7c3aed;}
 .nav-links{display:none; flex:1 1 auto; min-width:0; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:.5rem 1.25rem; font-size:.875rem; font-weight:500;}
@@ -109,6 +109,8 @@ html[data-theme="light"] .hero h1{color:#14163a; text-shadow:0 1px 0 rgba(255,25
 html[data-theme="light"] .hero-sub{color:#1f2150; text-shadow:none;}
 .hero-link{display:inline-block; margin-top:.625rem; padding:.375rem .875rem; border-radius:999px; background:rgba(13,16,38,.66); border:1px solid rgba(255,255,255,.16); color:#e9d5ff; font-size:.875rem; font-weight:700; text-decoration:none;}
 .hero-link:hover{border-color:var(--purple-soft);}
+.hero-links{display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem; margin-top:.625rem;}
+.hero-links .hero-link{margin-top:0;}
 
 /* ───────── board: 1 column → chat on top + 3 → four in a row, full width ───────── */
 .board{display:grid; grid-template-columns:minmax(0,1fr); gap:.875rem; align-items:start; width:calc(100% - 24px); margin:.75rem auto 0;}
