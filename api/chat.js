@@ -9,7 +9,8 @@ const MAX_BODY_BYTES = 32 * 1024;
 const MAX_MESSAGES = 30;
 const MAX_MESSAGE_CHARS = 4000;
 const MAX_TOKENS = 4000;         // room for the model's thinking plus a full draft
-const UPSTREAM_TIMEOUT_MS = 50000; // shorter than maxDuration (60 s) in vercel.json
+const UPSTREAM_TIMEOUT_MS = 280000; // shorter than maxDuration (300 s) in vercel.json
+const RETRY_STATUSES = new Set([429, 500, 502, 503, 504, 529]); // Anthropic busy or briefly unavailable
 const RATE_LIMIT = 20;             // requests per visitor per window, per server instance
 const RATE_WINDOW_MS = 10 * 60 * 1000;
 const DEFAULT_MODEL = 'claude-sonnet-5-5';
@@ -82,6 +83,8 @@ function systemPrompt(gub, picked) {
     '- If a request is too vague to give a specific recommendation, ask exactly ONE short clarifying question and stop.',
     '- Otherwise give a specific, tailored recommendation and one concrete next step Ms. Lee can do today. Never answer with only "read the guide".',
     '- Write in short paragraphs and "- " bullets. No headings, no tables. Keep it under about 220 words unless asked to draft something.',
+    '- A ready-made Excel workbook is on this site at /downloads/abl-podcast-workbook.xlsx. It has all 99 episodes with every duplicate highlighted in red (which episode it repeats, and whether the length is identical, 1:51 longer, or different), a summary, a 30-day plan, and a sheet for comparing the YouTube channel videos. When asked for a full list, a spreadsheet, Excel, a download or a planner, give that link and say what is in it. The one-page cheat sheet is at /cheat-sheet.html.',
+    '- Never list more than 15 episodes in one reply; for longer lists point to the workbook or the guide at /guide.html#playlists. You cannot create new files.',
     '- When you draft something Ms. Lee will paste or send (a title, description, post, email to the founder or a guest), put exactly that text inside a ``` fenced block.',
     '- Everything you said earlier in this conversation was checked against this same guide. Do not retract or "correct" an earlier statement unless the GUIDE DATA below contradicts it.',
     '- Guests are named in the episode index and episode facts; look there before saying someone is not in the guide.',
@@ -195,28 +198,76 @@ module.exports = async function handler(req, res) {
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), UPSTREAM_TIMEOUT_MS);
+  const request = JSON.stringify({
+    model: process.env.ANTHROPIC_MODEL || DEFAULT_MODEL,
+    max_tokens: MAX_TOKENS,
+    stream: true,
+    system: systemPrompt(gub, selectEntries(gub, messages)),
+    messages
+  });
+  const fail = () => send(res, 502, { error: 'The consultant could not answer just now. Please try again in a moment.' });
+
+  // Ask Claude, retrying once if it is busy. Nothing is sent to the browser until Claude accepts.
+  let upstream;
   try {
-    const upstream = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      signal: controller.signal,
-      headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
-      body: JSON.stringify({
-        model: process.env.ANTHROPIC_MODEL || DEFAULT_MODEL,
-        max_tokens: MAX_TOKENS,
-        system: systemPrompt(gub, selectEntries(gub, messages)),
-        messages
-      })
-    });
-    if (!upstream.ok) { console.error('chat: upstream status', upstream.status); return send(res, 502, { error: 'The consultant could not answer just now. Please try again in a moment.' }); }
-    const data = await upstream.json();
-    const text = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('\n').trim();
-    if (!text) { console.error('chat: empty upstream reply'); return send(res, 502, { error: 'The consultant could not answer just now. Please try again in a moment.' }); }
-    return send(res, 200, { text });
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      upstream = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        signal: controller.signal,
+        headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
+        body: request
+      });
+      if (upstream.ok || !RETRY_STATUSES.has(upstream.status) || attempt === 2) break;
+      console.error('chat: upstream status', upstream.status, 'retrying');
+      await new Promise(r => setTimeout(r, 1500));
+    }
   } catch (e) {
+    clearTimeout(timer);
     console.error('chat: upstream', e && e.name === 'AbortError' ? 'timeout' : 'error');
-    return send(res, 502, { error: 'The consultant could not answer just now. Please try again in a moment.' });
+    return fail();
+  }
+  if (!upstream.ok || !upstream.body) { clearTimeout(timer); console.error('chat: upstream status', upstream.status); return fail(); }
+
+  // Stream the answer to the browser as it is written. Words appear within seconds and the
+  // connection never sits idle, so long answers are not cut off by phones or networks.
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('X-Accel-Buffering', 'no');
+  const ERROR_MARK = '\n[[STREAM_ERROR]]';
+  const decoder = new TextDecoder();
+  let buffer = '', wrote = false, lastBeat = Date.now(), finished = false;
+  try {
+    const reader = upstream.body.getReader();
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      let nl;
+      while ((nl = buffer.indexOf('\n')) >= 0) {
+        const line = buffer.slice(0, nl).trim(); buffer = buffer.slice(nl + 1);
+        if (!line.startsWith('data:')) continue;
+        let evt; try { evt = JSON.parse(line.slice(5)); } catch (e) { continue; }
+        if (evt.type === 'content_block_delta' && evt.delta && evt.delta.type === 'text_delta' && evt.delta.text) {
+          res.write(evt.delta.text); wrote = true; lastBeat = Date.now();
+        } else if (evt.type === 'message_stop') {
+          finished = true;
+        } else if (evt.type === 'error') {
+          console.error('chat: upstream stream error');
+          res.write(ERROR_MARK); finished = true;
+        } else if (Date.now() - lastBeat > 5000) {
+          res.write('\u200b'); lastBeat = Date.now(); // keep-alive while Claude is thinking
+        }
+      }
+    }
+    if (!finished) { console.error('chat: stream ended early'); res.write(ERROR_MARK); }
+    else if (!wrote) { console.error('chat: empty upstream reply'); res.write(ERROR_MARK); }
+  } catch (e) {
+    console.error('chat: upstream', e && e.name === 'AbortError' ? 'timeout' : 'stream error');
+    try { res.write(ERROR_MARK); } catch (x) { /* connection already gone */ }
   } finally {
     clearTimeout(timer);
+    res.end();
   }
 };
 
