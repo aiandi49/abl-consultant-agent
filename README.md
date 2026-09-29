@@ -8,6 +8,7 @@ Ms. Lee's consulting tool for relaunching Abundance Legacy's podcast, **Real Cho
   - The five-episode pilot, with players.
   - Moving the show to YouTube, rights and credits, money (YouTube, Buzzsprout, the course and giving season), and the plan.
   - The questions to ask the founder.
+- **`cheat-sheet.html` — the one-page cheat sheet.** The short version for Ms. Lee: the seven questions for Nate, the pilot five, a daily checklist, all 79 titles sorted into the eight playlists with tick boxes, and the 20 repeats not to upload. It prints cleanly and is linked from the nav on every page and from the consultant's hero.
 - **`index.html` — the Consultant Agent.** You start with one open question. It asks a single clarifying question when it needs to, then gives a specific recommendation and a next step for today. The cards beside the chat show:
   - **Top match:** the recommended episode or guide section, with audio for the pilot episodes.
   - **Shortlist:** every match ranked, with a gauge showing the top fit.
@@ -31,13 +32,16 @@ Upload one copy of each recording to YouTube.
 abl-consultant-agent/
 ├── index.html        The Consultant Agent
 ├── guide.html        The guide
+├── cheat-sheet.html  One-page cheat sheet (printable)
 ├── api/chat.js       Serverless function: holds the key, builds the prompt from the guide, calls Claude
 ├── data/gub.json     THE content: 99 episodes + 22 guide sections (id, title, summary, body, tags, details)
 ├── css/engine.css    Agent styles (dark indigo engine template)
 ├── css/guide.css     Guide styles (editorial, Caribbean palette)
+├── css/cheat.css     Cheat sheet styles
 ├── js/controls.js    Theme toggle, text size, phone menu (both pages)
 ├── js/engine.js      Agent behavior
 ├── js/guide.js       Guide rendering
+├── js/cheat.js       Cheat sheet Print button
 ├── vercel.json       Function settings and security headers
 ├── .env.example      Variable names, no values
 └── .gitignore
@@ -71,7 +75,7 @@ Everything lives in `data/gub.json`:
 - **Episodes** have `kind: "episode"`, plus a playlist, date, length, guest, link, `repeatOf` (for re-airs) and `audio` (for the pilot files).
 - **Guide sections** have `kind: "guide"` and a `section` (`start`, `youtube`, `rights`, `money` or `plan`).
 
-Change a playlist, fix a summary or add a direct Buzzsprout link, and both pages and the agent pick it up on the next deployment. Only 25 episodes have a confirmed direct Buzzsprout link (`urlConfirmed: true`). The rest link to the show page until someone copies their links from the RSS feed.
+Change a playlist, fix a summary or add a direct Buzzsprout link, and the guide and the agent pick it up on the next deployment. The cheat sheet is plain HTML, so if a playlist or title changes in `data/gub.json`, update `cheat-sheet.html` to match. Only 25 episodes have a confirmed direct Buzzsprout link (`urlConfirmed: true`). The rest link to the show page until someone copies their links from the RSS feed.
 
 ## What is real, and what would need a bigger build
 
