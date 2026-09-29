@@ -99,15 +99,15 @@ html[data-theme="light"] .theme-dot{background:#14163a; box-shadow:none;}
 @media (min-width:56.25em){ .nav-links{display:flex;} .burger,.menu,.menu.open{display:none;} }
 
 /* ───────── hero ───────── */
-.hero{text-align:center; padding:2.125rem 1.25rem 1.625rem;}
-.hero-tag{display:inline-block; padding:.3125rem .8125rem; border-radius:999px; margin-bottom:.875rem; background:rgba(13,16,38,.66); border:1px solid rgba(255,255,255,.16); color:#e9d5ff; font-size:.8125rem; font-weight:600;}
-.hero h1{font-size:clamp(2.125rem, 5.4vw, 3.125rem); color:#fff; max-width:22ch; margin:0 auto;
+.hero{text-align:center; padding:1.25rem 1.25rem 1rem;}
+.hero-tag{display:inline-block; padding:.25rem .75rem; border-radius:999px; margin-bottom:.5rem; background:rgba(13,16,38,.66); border:1px solid rgba(255,255,255,.16); color:#e9d5ff; font-size:.8125rem; font-weight:600;}
+.hero h1{font-size:clamp(1.75rem, 3.4vw, 2.5rem); color:#fff; max-width:none; margin:0 auto;
   text-shadow:0 1px 0 rgba(0,0,0,.9), 0 0 .1875rem rgba(0,0,0,.8), 0 .375rem 1.5rem rgba(0,0,0,.55);}
 html[data-theme="light"] .hero h1{color:#14163a; text-shadow:0 1px 0 rgba(255,255,255,.6);}
-.hero-sub{max-width:25em; margin:1.125rem auto 0; font-size:clamp(1rem, 1.35vw, 1.125rem); line-height:1.45; font-weight:600; color:#fff;
+.hero-sub{max-width:32em; margin:.5rem auto 0; font-size:clamp(1rem, 1.35vw, 1.125rem); line-height:1.45; font-weight:600; color:#fff;
   text-shadow:0 1px 0 rgba(0,0,0,.95), 0 0 .1875rem rgba(0,0,0,.95), 0 .125rem .5rem rgba(0,0,0,.8);}
 html[data-theme="light"] .hero-sub{color:#1f2150; text-shadow:none;}
-.hero-link{display:inline-block; margin-top:.875rem; padding:.5rem 1rem; border-radius:999px; background:rgba(13,16,38,.66); border:1px solid rgba(255,255,255,.16); color:#e9d5ff; font-size:.875rem; font-weight:700; text-decoration:none;}
+.hero-link{display:inline-block; margin-top:.625rem; padding:.375rem .875rem; border-radius:999px; background:rgba(13,16,38,.66); border:1px solid rgba(255,255,255,.16); color:#e9d5ff; font-size:.875rem; font-weight:700; text-decoration:none;}
 .hero-link:hover{border-color:var(--purple-soft);}
 
 /* ───────── board: 1 column → chat on top + 3 → four in a row, full width ───────── */
@@ -127,10 +127,11 @@ html[data-theme="light"] .hero-sub{color:#1f2150; text-shadow:none;}
 
 /* chat */
 .chat{display:flex; flex-direction:column;}
-.chat-head{position:relative; text-align:center; padding:0 2.5rem;}
+.chat-head{position:relative; text-align:center; padding:0 7.5rem;}
+.head-icons{position:absolute; top:-.25rem; right:0; display:flex; gap:.125rem;}
 .chat-head h2{font-size:1.125rem;}
 .chat-head .sub{font-size:.8125rem; color:var(--text-soft); margin-top:.125rem;}
-.icon{position:absolute; top:-.25rem; right:0; width:2.5rem; height:2.5rem; border:0; background:none; border-radius:.5rem; color:var(--text-soft); cursor:pointer; display:inline-flex; align-items:center; justify-content:center;}
+.icon{width:2.5rem; height:2.5rem; border:0; background:none; border-radius:.5rem; color:var(--text-soft); cursor:pointer; display:inline-flex; align-items:center; justify-content:center;}
 .icon:hover{color:var(--text); background:var(--well);}
 .icon svg{width:1rem; height:1rem;}
 .count-chip{display:inline-flex; align-items:center; gap:.375rem; margin-top:.625rem; padding:.1875rem .625rem; border-radius:999px; background:var(--well); font-size:.75rem; font-weight:600; align-self:center;}
@@ -138,7 +139,7 @@ html[data-theme="light"] .hero-sub{color:#1f2150; text-shadow:none;}
 .count-chip.live .dot{background:#86efac; box-shadow:0 0 .375rem #86efac;}
 .count-chip.error .dot{background:#ff8a7a;}
 .messages{display:flex; flex-direction:column; gap:.625rem; margin:.625rem -.25rem 0; padding:.125rem .5rem .125rem .25rem; height:21.25rem; max-height:56vh; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin;}
-@media (min-width:68.75em){ .messages{height:clamp(13.75rem, calc(100vh - 33rem), 26.25rem); max-height:none;} }
+@media (min-width:68.75em){ .messages{height:clamp(11rem, calc(100vh - 35rem), 26.25rem); max-height:none;} }
 .msg{max-width:94%; padding:.625rem .75rem; border-radius:.625rem; font-size:.9375rem; line-height:1.5; overflow-wrap:anywhere; text-align:left;}
 .msg.assistant{align-self:flex-start; background:var(--well);}
 .msg.user{align-self:flex-end; background:linear-gradient(135deg, var(--indigo), #7c3aed); color:#fff; white-space:pre-wrap;}
@@ -222,7 +223,7 @@ html[data-theme="light"] .donut .track{stroke:rgba(20,22,58,.1);}
   .result .cover,.result .shortlist,.result .pick,.result .facts,.result .facts div{text-align:left;}
   .detail-head{justify-content:center;}
 }
-@media (min-width:45em){ .chat-head{text-align:left; padding:0 2.75rem 0 0;} .count-chip{align-self:flex-start;} .chat-foot{text-align:left;} }
+@media (min-width:45em){ .chat-head{text-align:left; padding:0 8rem 0 0;} .count-chip{align-self:flex-start;} .chat-foot{text-align:left;} }
 
 /* ───────── notes + footer ───────── */
 .notes{background:var(--page); padding:2.75rem 1.25rem 1.25rem;}
@@ -238,3 +239,20 @@ html[data-theme="light"] .donut .track{stroke:rgba(20,22,58,.1);}
 .foot a{color:var(--text-soft);}
 
 @media (prefers-reduced-motion:reduce){ *{animation:none !important; transition:none !important; scroll-behavior:auto !important;} }
+
+/* ───────── full-page chat ─────────
+   The expand button turns the chat card into a full-screen reading view; Esc or the same button
+   closes it. The page behind stops scrolling while it's open. */
+.expand-btn{width:auto; padding:0 .625rem; gap:.375rem; font-size:.8125rem; font-weight:600; border:1px solid var(--card-line); background:var(--well);}
+.expand-btn .i-close{display:none;}
+.chat.expanded .expand-btn .i-open{display:none;} .chat.expanded .expand-btn .i-close{display:inline;}
+@media (max-width:25em){ .expand-label{display:none;} .chat-head{padding:0 5.5rem;} }
+html.chat-open{overflow:hidden;}
+html.chat-open body{overflow:hidden;}
+.chat.expanded{position:fixed; inset:0; z-index:60; margin:0; border-radius:0; border:0; background:var(--card);
+  padding:calc(1rem + env(safe-area-inset-top, 0px)) calc(1rem + env(safe-area-inset-right, 0px)) calc(1rem + env(safe-area-inset-bottom, 0px)) calc(1rem + env(safe-area-inset-left, 0px));}
+@supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){ .chat.expanded{background:var(--card); -webkit-backdrop-filter:none; backdrop-filter:none;} }
+.chat.expanded .chat-head,.chat.expanded .count-chip,.chat.expanded .messages,.chat.expanded .composer,.chat.expanded .chat-foot{width:100%; max-width:52rem; margin-left:auto; margin-right:auto;}
+.chat.expanded .count-chip{width:auto; align-self:center;}
+.chat.expanded .messages{flex:1 1 auto; height:auto; max-height:none; min-height:0;}
+.chat.expanded .msg{font-size:1.0625rem; max-width:100%;}
