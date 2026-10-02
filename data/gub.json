@@ -5,7 +5,7 @@
   "consultant": "Ms. Lee",
   "podcast": "Real Choices…Real Life",
   "showUrl": "https://www.buzzsprout.com/1891053/episodes",
-  "checked": "September 2026",
+  "checked": "September 2026 (YouTube channel and website checked Sept 30, 2026)",
   "playlists": [
    {
     "key": "holistic",
@@ -63,7 +63,8 @@
    "introRepeats": 10,
    "unsure": 3,
    "hours": 72.7,
-   "distinctHours": 57.6
+   "distinctHours": 57.6,
+   "onYouTube": 8
   },
   "downloads": [
    {
@@ -135,58 +136,74 @@
    "kind": "episode",
    "title": "Discover Your Spirituality",
    "summary": "Where religion and spirituality overlap and where they part ways, with common myths cleared up.",
-   "body": "Where religion and spirituality overlap and where they part ways, with common myths cleared up.",
+   "body": "Where religion and spirituality overlap and where they part ways, with common myths cleared up.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Discovering Your Spirituality\", 34:45, 4 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Spirituality playlist.",
    "tags": [
     "episode",
     "spirituality",
-    "spirituality"
+    "spirituality",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#2 of 99",
     "Published": "2022-01-12",
     "Length": "34:37",
     "Playlist": "Spirituality",
-    "On the episode": "Hosts only",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "On the episode": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Discovering Your Spirituality\" (34:45, 4 views)"
    },
    "n": 2,
    "date": "2022-01-12",
    "duration": "34:37",
    "playlist": "spirituality",
-   "guest": "Hosts only",
+   "guest": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Discovering Your Spirituality",
+    "length": "34:45",
+    "views": 4
+   }
   },
   {
    "id": "ep-003",
    "kind": "episode",
    "title": "Health & Relationships",
    "summary": "The main areas of a healthy lifestyle, and how the people in your inner circle affect your wellbeing.",
-   "body": "The main areas of a healthy lifestyle, and how the people in your inner circle affect your wellbeing.",
+   "body": "The main areas of a healthy lifestyle, and how the people in your inner circle affect your wellbeing.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Health & Relationships\", 39:32, 6 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Health playlist.",
    "tags": [
     "episode",
     "health",
-    "health"
+    "health",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#3 of 99",
     "Published": "2022-01-19",
     "Length": "39:21",
     "Playlist": "Health",
-    "On the episode": "Hosts only",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "On the episode": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Health & Relationships\" (39:32, 6 views)"
    },
    "n": 3,
    "date": "2022-01-19",
    "duration": "39:21",
    "playlist": "health",
-   "guest": "Hosts only",
+   "guest": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Health & Relationships",
+    "length": "39:32",
+    "views": 6
+   }
   },
   {
    "id": "ep-004",
@@ -222,11 +239,13 @@
    "kind": "episode",
    "title": "Understanding Energy",
    "summary": "Energy and its influence on everyday life, with a guest who shares her healing work.",
-   "body": "Energy and its influence on everyday life, with a guest who shares her healing work.",
+   "body": "Energy and its influence on everyday life, with a guest who shares her healing work.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Understanding Energy 1\", 53:13, 5 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Spirituality playlist.",
    "tags": [
     "episode",
     "spirituality",
-    "spirituality"
+    "spirituality",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#5 of 99",
@@ -234,7 +253,8 @@
     "Length": "53:12",
     "Playlist": "Spirituality",
     "On the episode": "Cindy Tawiah",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Understanding Energy 1\" (53:13, 5 views)"
    },
    "n": 5,
    "date": "2022-02-02",
@@ -244,7 +264,12 @@
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Understanding Energy 1",
+    "length": "53:13",
+    "views": 5
+   }
   },
   {
    "id": "ep-006",
@@ -280,11 +305,13 @@
    "kind": "episode",
    "title": "Do I Have the Right Relationships?",
    "summary": "How to tell whether the relationships around you are the right ones, and what to do when they are not.",
-   "body": "How to tell whether the relationships around you are the right ones, and what to do when they are not.",
+   "body": "How to tell whether the relationships around you are the right ones, and what to do when they are not.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Do I Have The Right Relationship\", 40:05, 7 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Family & Relationships playlist.",
    "tags": [
     "episode",
     "relationships",
-    "family & relationships"
+    "family & relationships",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#7 of 99",
@@ -292,7 +319,8 @@
     "Length": "40:04",
     "Playlist": "Family & Relationships",
     "On the episode": "Jessica Karin (co-host)",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Do I Have The Right Relationship\" (40:05, 7 views)"
    },
    "n": 7,
    "date": "2022-02-16",
@@ -302,26 +330,34 @@
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Do I Have The Right Relationship",
+    "length": "40:05",
+    "views": 7
+   }
   },
   {
    "id": "ep-008",
    "kind": "episode",
    "title": "Am I Doing What I Love? If Not Why Not?",
    "summary": "Balancing work with doing what you love, and the myths around work-life balance.",
-   "body": "Balancing work with doing what you love, and the myths around work-life balance.",
+   "body": "Balancing work with doing what you love, and the myths around work-life balance.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Am I doing what I love, if not why not\", 56:02, 1 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Career & Purpose playlist.",
    "tags": [
     "episode",
     "career",
-    "career & purpose"
+    "career & purpose",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#8 of 99",
     "Published": "2022-02-23",
     "Length": "56:01",
     "Playlist": "Career & Purpose",
-    "On the episode": "Jolisa Webb Dudley, life coach",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "On the episode": "Jolisa Webb Dudley (Beauty In the Midst LLC), with Nathaniel X. Ross, Jessica Karin and Stephanie Jackson",
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Am I doing what I love, if not why not\" (56:02, 1 views)"
    },
    "n": 8,
    "date": "2022-02-23",
@@ -331,7 +367,12 @@
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Am I doing what I love, if not why not",
+    "length": "56:02",
+    "views": 1
+   }
   },
   {
    "id": "ep-009",
@@ -427,11 +468,13 @@
    "kind": "episode",
    "title": "Cleaning Up Your Inner Circle",
    "summary": "What your inner circle is, and how to decide who belongs in it.",
-   "body": "What your inner circle is, and how to decide who belongs in it.",
+   "body": "What your inner circle is, and how to decide who belongs in it.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Cleaning up your inner circle\", 42:33, 14 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Family & Relationships playlist.",
    "tags": [
     "episode",
     "relationships",
-    "family & relationships"
+    "family & relationships",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#12 of 99",
@@ -439,7 +482,8 @@
     "Length": "42:32",
     "Playlist": "Family & Relationships",
     "On the episode": "Jessica Karin (co-host)",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Cleaning up your inner circle\" (42:33, 14 views)"
    },
    "n": 12,
    "date": "2022-03-23",
@@ -449,7 +493,12 @@
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": null,
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Cleaning up your inner circle",
+    "length": "42:33",
+    "views": 14
+   }
   },
   {
    "id": "ep-013",
@@ -1974,31 +2023,39 @@
    "kind": "episode",
    "title": "Holistic Living",
    "summary": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.",
-   "body": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.\n\nSame title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.",
+   "body": "The show’s opening idea: looking at life as a whole, from spirituality and relationships to money and community.\n\nSame title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Holistic Living\", 37:03, 1 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Holistic Living playlist.",
    "tags": [
     "episode",
     "holistic",
     "holistic living",
-    "repeat"
+    "repeat",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#65 of 99",
     "Published": "2023-05-24",
     "Length": "37:02",
     "Playlist": "Holistic Living",
-    "On the episode": "Hosts only",
-    "Repeat": "Same title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording.",
-    "Buzzsprout link": "Show page (direct link not collected yet)"
+    "On the episode": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
+    "Repeat": "Same title as #1 but +49 seconds different in length — listen to the opening to tell whether it is a new recording. The YouTube video \"Holistic Living\" (37:03) matches this one’s length, so this is the recording on video.",
+    "Buzzsprout link": "Show page (direct link not collected yet)",
+    "On YouTube already": "Yes, as video: \"Holistic Living\" (37:03, 1 views)"
    },
    "n": 65,
    "date": "2023-05-24",
    "duration": "37:02",
    "playlist": "holistic",
-   "guest": "Hosts only",
+   "guest": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
    "url": "https://www.buzzsprout.com/1891053/episodes",
    "urlConfirmed": false,
    "repeatOf": "ep-001",
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Holistic Living",
+    "length": "37:03",
+    "views": 1
+   }
   },
   {
    "id": "ep-066",
@@ -2330,31 +2387,39 @@
    "kind": "episode",
    "title": "Is Your Career Your Passion?",
    "summary": "How to recognise your passion and the signs that a job is genuinely satisfying.",
-   "body": "How to recognise your passion and the signs that a job is genuinely satisfying.\n\nSame title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.",
+   "body": "How to recognise your passion and the signs that a job is genuinely satisfying.\n\nSame title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording. On YouTube, publish one copy and leave this one out of the playlists.\n\nThis conversation is already on the ABL YouTube channel as a video recording (\"Is Your Career Your Passion\", 38:07, 2 views when checked Sept 30, 2026). Don’t upload the audio version too: retitle the existing video, write its description and add it to the Career & Purpose playlist.",
    "tags": [
     "episode",
     "career",
     "career & purpose",
-    "repeat"
+    "repeat",
+    "youtube",
+    "video"
    ],
    "details": {
     "Episode": "#77 of 99",
     "Published": "2023-08-16",
     "Length": "38:06",
     "Playlist": "Career & Purpose",
-    "On the episode": "Hosts only",
-    "Repeat": "Same title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording.",
-    "Buzzsprout link": "Direct episode page"
+    "On the episode": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
+    "Repeat": "Same title as #4 but +165 seconds different in length — listen to the opening to tell whether it is a new recording. The YouTube video \"Is Your Career Your Passion\" (38:07) matches this one’s length.",
+    "Buzzsprout link": "Direct episode page",
+    "On YouTube already": "Yes, as video: \"Is Your Career Your Passion\" (38:07, 2 views)"
    },
    "n": 77,
    "date": "2023-08-16",
    "duration": "38:06",
    "playlist": "career",
-   "guest": "Hosts only",
+   "guest": "Nathaniel X. Ross, Jessica Karin and Stephanie Jackson (seen on the video)",
    "url": "https://www.buzzsprout.com/1891053/episodes/13415954-is-your-career-your-passion",
    "urlConfirmed": true,
    "repeatOf": "ep-004",
-   "audio": null
+   "audio": null,
+   "youtube": {
+    "title": "Is Your Career Your Passion",
+    "length": "38:07",
+    "views": 2
+   }
   },
   {
    "id": "ep-078",
@@ -3025,8 +3090,8 @@
    "kind": "guide",
    "section": "start",
    "title": "Where the podcast stands today",
-   "summary": "Real Choices…Real Life has 99 published episodes and a YouTube channel that nobody is tending.",
-   "body": "Real Choices…Real Life is the podcast of Abundance Legacy (ABL), the international nonprofit founded by Nathaniel X. Ross. It ran weekly on Buzzsprout from January 5, 2022 to January 17, 2024 and is listed on Apple Podcasts, Spotify, Amazon Music and through its RSS feed.\n\nNo new episode has come out since January 2024. The catalog is finished, recorded and paid for, so the job now is not making content. It is getting existing content found.\n\nDuring Ms. Lee’s working session in September 2026, the ABL YouTube channel showed about 67 videos and 8 subscribers, and a playlist that displayed as a grey, broken tile. Those numbers were read off the screen in the session; check them in YouTube Studio before quoting them to anyone.",
+   "summary": "Real Choices…Real Life has 99 published episodes. The YouTube channel has 67 videos, 8 subscribers, 240 views in total and no playlists.",
+   "body": "Real Choices…Real Life is the podcast of Abundance Legacy (ABL), the international nonprofit founded by Nathaniel X. Ross. It ran weekly on Buzzsprout from January 5, 2022 to January 17, 2024 and is listed on Apple Podcasts, Spotify, Amazon Music and through its RSS feed.\n\nNo new episode has come out since January 2024. The catalog is finished, recorded and paid for, so the job now is not making content. It is getting existing content found.\n\nThe ABL YouTube channel (@AbundanceLegacyInc, joined October 29, 2022) showed 67 videos, 8 subscribers, 240 views in total and no playlists when checked on September 30, 2026. Most videos have fewer than 10 views. The channel’s About section already links to abundancelegacy.org, the podcast on Buzzsprout, and the podcast’s Instagram and Facebook.",
    "tags": [
     "overview",
     "buzzsprout",
@@ -3041,7 +3106,7 @@
     "Last episode": "Jan 17, 2024",
     "Hosted on": "Buzzsprout",
     "Listed on": "Apple Podcasts, Spotify, Amazon Music, RSS",
-    "YouTube (as seen Sept 2026)": "About 67 videos, 8 subscribers — to be confirmed"
+    "YouTube (checked Sept 30, 2026)": "67 videos, 8 subscribers, 240 views, no playlists"
    }
   },
   {
@@ -3050,7 +3115,7 @@
    "section": "start",
    "title": "99 episodes, 79 distinct shows",
    "summary": "About one in five published episodes repeats an earlier recording. Upload each recording once.",
-   "body": "Comparing titles and exact running times across all 99 episodes shows 79 distinct titles. Of the 20 repeated ones, 7 are exactly the same length as the original (a straight re-air) and 10 are exactly 1 minute 51 seconds longer (almost certainly the same recording with a new intro or outro). The last 3 share a title with an earlier episode but differ by a less regular amount, so someone needs to listen to the opening to be sure.\n\nThat matters for YouTube: uploading all 99 would put the same conversation on the channel twice, which splits views and looks careless. Upload one copy of each recording, preferably the later one if its extra 1:51 is a better intro.\n\nThe full catalog runs about 72.7 hours; the distinct recordings about 57.6 hours.",
+   "body": "Comparing titles and exact running times across all 99 episodes shows 79 distinct titles. Of the 20 repeated ones, 7 are exactly the same length as the original (a straight re-air) and 10 are exactly 1 minute 51 seconds longer (almost certainly the same recording with a new intro or outro). The last 3 share a title with an earlier episode but differ by a less regular amount, so someone needs to listen to the opening to be sure.\n\nThat matters for YouTube: uploading all 99 would put the same conversation on the channel twice, which splits views and looks careless. Upload one copy of each recording, preferably the later one if its extra 1:51 is a better intro.\n\nThe full catalog runs about 72.7 hours; the distinct recordings about 57.6 hours.\n\nEight episodes are already on YouTube as video recordings (see “What the 67 YouTube videos actually are”). Two of those videos, Holistic Living and Is Your Career Your Passion, match the later copy of a “listen to check” pair (#65 and #77) to the second, which suggests those later copies are separate recordings rather than repeats. So between 71 and 73 distinct recordings still need to go up; listening to #1 and #4 settles it.",
    "tags": [
     "catalog",
     "duplicates",
@@ -3066,7 +3131,9 @@
     "Same recording + 1:51": "10",
     "Need a listen": "3",
     "Total running time": "72.7 hours",
-    "Distinct running time": "57.6 hours"
+    "Distinct running time": "57.6 hours",
+    "Already on YouTube as video": "8",
+    "Still to upload": "71–73"
    }
   },
   {
@@ -3174,8 +3241,8 @@
    "kind": "guide",
    "section": "youtube",
    "title": "Fix the channel before adding anything",
-   "summary": "Record the “before,” fix the broken playlist, and don’t delete the old videos.",
-   "body": "Start by screen-recording the channel as it looks today and saving the numbers from YouTube Studio’s Analytics tab. That is the “before” that makes the pilot’s results believable.\n\nThe grey playlist tile usually means a playlist whose videos were removed or made private. Open YouTube Studio, go to Content, then Playlists, and either add videos to it or delete that empty playlist.\n\nDon’t delete the 67 existing videos. People may have liked, saved or linked them, and deleting breaks those links. Instead, compare them against the 99-episode list, then either sort them into the new playlists or set true duplicates to Unlisted.\n\nIn Studio, open any video (the pencil icon) to edit its title, description and playlist; the Visibility column switches between Public, Unlisted and Private.",
+   "summary": "Record the “before,” create the playlists, and sort the existing videos rather than deleting them.",
+   "body": "Start by screen-recording the channel as it looks today and saving the numbers from YouTube Studio’s Analytics tab. That is the “before” that makes the pilot’s results believable.\n\nThe channel currently has no playlists at all, so every video sits in one long list. Create the eight podcast playlists, plus two more for what is already there: “It’s Your Life OWN It with Marissa” for the interview series, and “About Abundance Legacy” for the promos.\n\nDon’t delete the 67 existing videos. People may have liked, saved or linked them, and deleting breaks those links. Instead, compare them against the 99-episode list, then either sort them into the new playlists or set true duplicates to Unlisted.\n\nIn Studio, open any video (the pencil icon) to edit its title, description and playlist; the Visibility column switches between Public, Unlisted and Private.",
    "tags": [
     "youtube",
     "studio",
@@ -3188,9 +3255,9 @@
    ],
    "details": {
     "First": "Screen-record the channel and save analytics",
-    "Broken tile": "Empty playlist — fill it or delete it",
     "Old videos": "Keep, sort or set to Unlisted",
-    "Where": "YouTube Studio › Content"
+    "Where": "YouTube Studio › Content",
+    "Playlists today": "None — create 8 podcast + OWN It + About ABL"
    }
   },
   {
@@ -3415,7 +3482,7 @@
    "section": "money",
    "title": "From a video to a gift",
    "summary": "Every video should point to one place: the free course, which ends with an invitation to give.",
-   "body": "The founder’s course is free. At the end he asks people who found it useful to donate. That is the funnel: a short clip catches someone, a full episode earns trust, one link takes them to the course sign-up, and the course ends with the ask.\n\nKeep it to one link per video, always the same one, so results are easy to measure. The “About Abundance Legacy” episodes become the end-screen for every other video, so a viewer who liked a money episode learns who made it.\n\nWhat to watch weekly: clicks on the link (YouTube Studio shows them), course sign-ups, and gifts. If sign-ups rise, the channel is working even before the numbers look big.",
+   "body": "The founder’s course is free. At the end he asks people who found it useful to donate. That is the funnel: a short clip catches someone, a full episode earns trust, one link takes them to the course sign-up, and the course ends with the ask.\n\nKeep it to one link per video, always the same one, so results are easy to measure. The “About Abundance Legacy” episodes become the end-screen for every other video, so a viewer who liked a money episode learns who made it.\n\nWhat to watch weekly: clicks on the link (YouTube Studio shows them), course sign-ups, and gifts. If sign-ups rise, the channel is working even before the numbers look big.\n\nABL already has these destinations on abundancelegacy.org: the Financial Boot Camp, life coaching, support groups, an email sign-up and a donate page. Match the link to the episode: money episodes to the Boot Camp, relationship episodes to coaching or support groups.",
    "tags": [
     "funnel",
     "course",
@@ -3431,7 +3498,8 @@
     "Step 2": "The full episode builds trust",
     "Step 3": "One link to the free course",
     "Step 4": "The course ends with an invitation to give",
-    "Track weekly": "Link clicks · sign-ups · gifts"
+    "Track weekly": "Link clicks · sign-ups · gifts",
+    "Ready-made links": "Boot Camp · Coaching · Support groups · Email list · Donate"
    }
   },
   {
@@ -3555,8 +3623,8 @@
    "kind": "guide",
    "section": "plan",
    "title": "Questions for the founder",
-   "summary": "Seven answers unlock the rest of the plan.",
-   "body": "1. Does ABL own every recording outright, and may it edit, clip and raise money around them?\n2. Did guests sign releases? If not, may we ask them now?\n3. What did you record with, and where are the original files, especially any video?\n4. Is there written agreement between you and whoever managed the channel before?\n5. Which link should every video point to: the course sign-up or the giving page?\n6. Who handles donations and the reporting that comes with them?\n7. Which of the three episodes that share a title but not a length (Holistic Living, Is Your Career Your Passion?, Finance 2023) are new recordings?",
+   "summary": "Eight answers unlock the rest of the plan.",
+   "body": "1. Does ABL own every recording outright, and may it edit, clip and raise money around them?\n2. Did guests sign releases? If not, may we ask them now?\n3. Eight 2022 episodes are already on YouTube as video. Do video recordings exist for the other episodes, and where are the original files?\n4. Is there written agreement between you and whoever managed the channel before?\n5. Which link should every video point to: the course sign-up or the giving page?\n6. Who handles donations and the reporting that comes with them?\n7. Which of the three episodes that share a title but not a length (Holistic Living, Is Your Career Your Passion?, Finance 2023) are new recordings?\n8. The YouTube channel also carries about 51 “It’s Your Life OWN It” videos with Marissa. Is that series part of this relaunch, and does ABL have the rights to reuse it?",
    "tags": [
     "questions",
     "founder",
@@ -3568,7 +3636,8 @@
     "Rights": "Q1–Q2",
     "Files": "Q3–Q4",
     "Funnel": "Q5–Q6",
-    "Catalog": "Q7"
+    "Catalog": "Q7",
+    "Channel": "Q8"
    }
   },
   {
@@ -3593,6 +3662,61 @@
     "Honesty": "No invented numbers or quotes",
     "AI edits": "Use YouTube’s altered-content disclosure"
    }
+  },
+  {
+   "kind": "guide",
+   "id": "youtube-inventory",
+   "section": "youtube",
+   "title": "What the 67 YouTube videos actually are",
+   "summary": "Only 8 are podcast episodes. Most of the channel is a different show, plus 8 short promos.",
+   "body": "Reading the channel’s Videos tab on September 30, 2026:\n\n1. 8 are podcast episodes recorded on video in 2022, with Nathaniel X. Ross, Jessica Karin and Stephanie Jackson: Health & Relationships, Discovering Your Spirituality, Understanding Energy 1, Am I Doing What I Love, Do I Have The Right Relationship, Holistic Living, Is Your Career Your Passion, and Cleaning Up Your Inner Circle. Their lengths match the podcast episodes to within seconds.\n2. 8 are short promos under two minutes: Real Choices Real Life Podcast Commercial, Women Group Commercial, Men’s Group Commercial, Hump Revised Video 2, Donation Video, Article Video, Financial Boot Camp Commercial and Choice Video.\n3. The other 51 or so are a separate interview show, “Nathaniel X. Ross on It’s Your Life OWN It — Motivational Moments with Marissa,” with Marissa Bloedoorn of OWN It! Magazine & Publishing and guests such as Jacqueline Lulu Brown, Coach Tiffany Parra, Elaine Scales and Dr. Stephanie Reid. Several share the same thumbnail and length, so some are probably uploaded more than once.\n\nWhat this means: almost none of the podcast is on YouTube yet. Upload the remaining 71 to 73 distinct recordings (see the catalog section for why the range), and treat the OWN It videos as their own series with their own playlist instead of mixing them into the podcast playlists. The OWN It count is by subtraction (67 minus 16), and the possible repeats need checking in YouTube Studio, where every video’s exact title, date and length are listed under Content.",
+   "tags": [
+    "youtube",
+    "channel",
+    "67 videos",
+    "inventory",
+    "own it",
+    "marissa",
+    "promos",
+    "commercials",
+    "duplicates"
+   ],
+   "details": {
+    "Podcast episodes on video": "8",
+    "Short promos": "8",
+    "“It’s Your Life OWN It” videos": "About 51",
+    "Playlists on the channel": "None",
+    "Total views": "240",
+    "Checked": "Sept 30, 2026, from the channel page"
+   },
+   "source": "https://www.youtube.com/@AbundanceLegacyInc"
+  },
+  {
+   "kind": "guide",
+   "id": "abl-programs",
+   "section": "money",
+   "title": "What Abundance Legacy offers",
+   "summary": "Podcast, Financial Boot Camp, life coaching, support groups and articles, plus volunteering, an email list and online giving.",
+   "body": "From abundancelegacy.org (checked September 30, 2026): the vision is to help people become critical thinkers who make healthy decisions in their lives and relationships. Programs listed are the podcast, a Financial Boot Camp (a one-month program meeting once a week for two hours by video), life coaching, support groups and articles. The site invites people to volunteer, learn (podcast, articles, calendar) and donate, and has an email sign-up in the footer.\n\nThat gives every video a real next step: money episodes can point to the Financial Boot Camp, relationship and family episodes to life coaching or support groups, and everything else to the email list or the donate page. The site already has testimonial videos; reuse those rather than writing new ones.",
+   "tags": [
+    "abl",
+    "programs",
+    "financial boot camp",
+    "life coaching",
+    "support groups",
+    "donate",
+    "volunteer",
+    "email list",
+    "website"
+   ],
+   "details": {
+    "Programs": "Podcast · Financial Boot Camp · Life Coaching · Support Groups · Articles",
+    "Boot Camp": "1 month, weekly 2-hour video sessions",
+    "Ways to help": "Volunteer · Donate",
+    "Email list": "Sign-up in the site footer",
+    "Checked": "abundancelegacy.org, Sept 30, 2026"
+   },
+   "source": "https://abundancelegacy.org"
   }
  ]
 }
