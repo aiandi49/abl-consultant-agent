@@ -150,6 +150,7 @@
       var notes = td('Notes', 'notes');
       if (e.repeatOf) notes.appendChild(el('span', 'warn', e.details.Repeat));
       if (e.audio) notes.appendChild(el('span', 'pilot-tag', 'Pilot episode'));
+      if (e.youtube) notes.appendChild(el('span', 'yt-tag', 'Already on YouTube as video (' + e.youtube.views + ' views) — retitle it, don’t re-upload'));
       if (!e.urlConfirmed) notes.appendChild(el('span', 'muted', 'Links to the show page'));
       if (!notes.childNodes.length) notes.appendChild(el('span', 'muted', '—'));
       body.appendChild(tr);
