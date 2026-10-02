@@ -86,7 +86,7 @@ Change a playlist, fix a summary or add a direct Buzzsprout link, and the guide 
 - **30-day plan:** change the yellow start date and every date updates.
 - **YouTube videos (fill in):** paste the channel's videos and it finds the matching episode and flags repeats.
 
-It's linked from the cheat sheet, and the consultant gives the link whenever someone asks for a list, a spreadsheet or a plan. If episodes change in `data/gub.json`, rebuild the workbook to match.
+It's linked from the cheat sheet, and the consultant gives the link whenever someone asks for a list, a spreadsheet or a plan. The **All 99 episodes** sheet also marks the 8 episodes already on YouTube as video, and the **YouTube** sheet lists the 16 channel videos that could be read exactly from the channel on September 30, 2026 (8 podcast episodes and 8 promos), with room to add the roughly 51 “It’s Your Life OWN It” videos. If episodes change in `data/gub.json`, rebuild the workbook to match.
 
 ## What is real, and what would need a bigger build
 
