@@ -210,6 +210,7 @@ html[data-theme="dark"] .pl-abl.badge,html[data-theme="dark"] .pl-finance.badge{
 .notes span{display:block;}
 .warn{color:var(--coral); font-weight:600; font-size:.875rem;}
 .pilot-tag{font-weight:700; font-size:.875rem; color:var(--turq);}
+.yt-tag{font-weight:600; font-size:.875rem; color:var(--ocean);}
 .muted{color:var(--ink-dim); font-size:.875rem;}
 @media (min-width:62em){
   .episodes{display:table; border-spacing:0;}
